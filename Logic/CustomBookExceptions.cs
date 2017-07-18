@@ -29,7 +29,6 @@ namespace Logic
         public BookNotFoundException(string message) : base(message) { }
 
         public BookNotFoundException(string message, Exception innerException) :
-            base(message, innerException)
-        { }
+            base(message, innerException) { }
     }
 }

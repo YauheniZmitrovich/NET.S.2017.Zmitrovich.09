@@ -152,6 +152,5 @@ namespace Logic
         public int NumberOfBooks => _list.Count;
 
         #endregion
-
     }
 }

@@ -73,7 +73,6 @@ namespace Storages
             }
 
             return books;
-
         }
     }
 }
