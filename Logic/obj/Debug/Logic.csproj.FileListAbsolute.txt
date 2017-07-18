@@ -1,0 +1,5 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\bin\Debug\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\bin\Debug\Logic.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\obj\Debug\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\obj\Debug\Logic.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache

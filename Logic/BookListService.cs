@@ -136,5 +136,22 @@ namespace Logic
         }
 
         #endregion
+
+
+        #region Indexator and Properties
+
+        /// <summary>
+        /// Indexer.
+        /// </summary>
+        public Book this[int index] =>
+            new Book(_list[index].Title, _list[index].Author, _list[index].Genre, _list[index].Year, _list[index].NumberOfPages);
+
+        /// <summary>
+        /// Number of books in list.
+        /// </summary>
+        public int NumberOfBooks => _list.Count;
+
+        #endregion
+
     }
 }

@@ -1,0 +1,12 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\ConsoleUI.exe
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\ConsoleUI.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Storages.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Logic.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Storages.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\obj\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\obj\Debug\ConsoleUI.exe
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\obj\Debug\ConsoleUI.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Comparators.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Comparators.pdb

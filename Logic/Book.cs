@@ -17,8 +17,6 @@ namespace Logic
 
         private string _genre;
 
-        private int _year;
-
         private int _numberOfPages;
 
         #endregion
@@ -36,6 +34,7 @@ namespace Logic
             {
                 if (string.IsNullOrEmpty(value))
                     throw new ArgumentException("The book must have the tittle.");
+                _title = value;
             }
         }
 
@@ -49,6 +48,7 @@ namespace Logic
             {
                 if (string.IsNullOrEmpty(value))
                     throw new ArgumentException("The book must have the author.");
+                _author = value;
             }
         }
 
@@ -62,6 +62,7 @@ namespace Logic
             {
                 if (string.IsNullOrEmpty(value))
                     throw new ArgumentException("The book must belong to the genre.");
+                _genre = value;
             }
         }
 
@@ -80,6 +81,7 @@ namespace Logic
             {
                 if (value < 1)
                     throw new ArgumentException("Number of pages must be greater than zero.");
+                _numberOfPages = value;
             }
         }
 

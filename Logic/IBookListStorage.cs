@@ -9,7 +9,7 @@ namespace Logic
     public interface IBookListStorage
     {
         /// <summary>
-        /// Save list of books in specified storage.
+        /// Save list of books in a specified storage.
         /// </summary>
         /// <param name="books"> List of books. </param>
         void Save(List<Book> books);

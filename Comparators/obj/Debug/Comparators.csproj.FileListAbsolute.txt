@@ -1,0 +1,7 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\Comparators.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\Comparators.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\Logic.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\obj\Debug\Comparators.csprojResolveAssemblyReference.cache
+E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\obj\Debug\Comparators.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\obj\Debug\Comparators.pdb

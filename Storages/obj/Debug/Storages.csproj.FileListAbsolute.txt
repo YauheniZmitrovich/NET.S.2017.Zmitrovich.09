@@ -1,0 +1,7 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\bin\Debug\Storages.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\bin\Debug\Storages.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\bin\Debug\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\bin\Debug\Logic.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\obj\Debug\Storages.csprojResolveAssemblyReference.cache
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\obj\Debug\Storages.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\obj\Debug\Storages.pdb
