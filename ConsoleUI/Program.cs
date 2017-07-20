@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Comparators;
+using Logging;
 using Logic;
 using Storages;
 
@@ -12,6 +13,111 @@ namespace ConsoleUI
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            var logger = NLogger.Instance;
+            logger.Trace("trace message");
+
+            try
+            {
+                #region Book service creating and intializing
+
+                logger.Debug("Creating book service object");
+                var bookService = new BookListService();
+
+                logger.Debug("Adding books in the book service");
+                bookService.AddBook(new Book("Programminng by C#", "Ian Griffiths", "Science fiction", 2012, 1064));
+                bookService.AddBook(new Book("C# 6.0", "J. Albahari & B. Albahari", "Science fiction", 2016, 1040));
+                bookService.AddBook(new Book("CLR via C#", "J. Richter", "Science fiction", 2006, 986));
+                bookService.AddBook(new Book("Demons", "Dostoevsky F.", "Philosophical fiction", 1872, 1000));
+
+                #endregion
+
+
+                #region Books service's main methods testing
+
+                logger.Debug("Trying to search the book by tag.");
+                Book book1 = bookService.FindBookByTag(b => b.Year == 2016);
+                Console.WriteLine(book1);
+                logger.Info("The book was founded");
+
+                logger.Debug("Show the list of books");
+                ShowList(bookService.GetBooks());
+
+                logger.Debug($"Trying to remove the book {book1.Title + " " + book1.Author} from the service");
+                bookService.RemoveBook(book1);
+                logger.Info("The book was removed");
+
+                logger.Debug("Trying to sort the books by author by service");
+                bookService.SortBooksByTag(new ComparatorByAuthor());
+                logger.Info("The books were sorted");
+
+                logger.Debug("Show the list of books");
+                Console.WriteLine("==============\nAfter sorting by author:");
+                ShowList(bookService.GetBooks());
+
+                #endregion
+
+
+                #region Binary storage testing
+
+                logger.Debug("Creating of new storage");
+                var storage = new BinaryStorage("BinaryStorageFile");
+                logger.Info("The storage was created");
+
+                logger.Debug("Saving the list of books");
+                bookService.Save(storage);
+                logger.Info("The list of books was saved");
+
+                logger.Debug("Loading the list of books");
+                var bookService2 = new BookListService();
+                bookService2.Load(storage);
+                logger.Info("The list of books was sucessfully loaded");
+
+                logger.Debug("Show the list of books");
+                Console.WriteLine("==============\nAfter loading:");
+                ShowList(bookService2.GetBooks());
+
+                #endregion
+
+
+                #region Exceptions testing
+
+                bookService.AddBook(new Book("CLR via C#", "J. Richter", "Science fiction", 2006, 986));
+                bookService.AddBook(null);
+                bookService.Load(storage);
+
+                #endregion
+
+            }
+            catch (BookNotFoundException ex)
+            {
+                logger.Warn($"The book: {ex.UnfoundBook.ToString()} was not found.");
+            }
+            catch (BookAlreadyExistsException ex)
+            {
+                logger.Warn($"The book: {ex.ExistingBook.ToString()} already exists.");
+            }
+            catch (BinaryStorageFileNotFoundException ex)
+            {
+                logger.Warn($"The storage: {ex.UnfoundPath} was not found");
+            }
+            catch (ArgumentNullException ex)
+            {
+                logger.Error("Argument is null reference. "+ex.Message);
+            }
+            catch (ArgumentException ex)
+            {
+                logger.Error("Incorrect input argument. " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                logger.Fatal("UNHANDLED EXCEPTION!:" + ex.Message);
+            }
+        }
+
+        #region Public static methods
+
         public static void ShowList(List<Book> books)
         {
             foreach (Book b in books)
@@ -20,52 +126,6 @@ namespace ConsoleUI
             }
         }
 
-        static void Main(string[] args)
-        {
-            var bookService = new BookListService();
-
-            bookService.AddBook(new Book("Programminng by C#", "Ian Griffiths", "Science fiction", 2012, 1064));
-            bookService.AddBook(new Book("C# 6.0", "J. Albahari & B. Albahari", "Science fiction", 2016, 1040));
-            bookService.AddBook(new Book("CLR via C#", "J. Richter", "Science fiction", 2006, 986));
-            bookService.AddBook(new Book("Demons", "Dostoevsky F.", "Philosophical fiction", 1872, 1000));
-
-            Book book1 = bookService.FindBookByTag(b => b.Year == 2016);
-            Console.WriteLine(book1);
-
-            ShowList(bookService.GetBooks());
-            bookService.RemoveBook(book1);
-
-            Console.WriteLine("==============\nAfter book removing:");
-            ShowList(bookService.GetBooks());
-
-            Book book2 = bookService.FindBookByTag(b => b.Year == 2016);
-            if (book2 == null)
-                Console.WriteLine("\nThe book was not founded.");
-
-            bookService.SortBooksByTag(new ComparatorByAuthor());
-            Console.WriteLine("==============\nAfter sorting by author:");
-            ShowList(bookService.GetBooks());
-
-            var storage = new BinaryStorage("BinaryStorageFile");
-            bookService.Save(storage);
-
-            var bookService2 = new BookListService();
-            bookService2.Load(storage);
-
-            Console.WriteLine("==============\nAfter loading:");
-            ShowList(bookService2.GetBooks());
-
-            try
-            {
-                //bookService.AddBook(new Book("C# 6.0", "J. Albahari & B. Albahari", "Science fiction", 2016, 1040));
-                //bookService.AddBook(null);
-                // bookService.Load();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
-
-        }
+        #endregion
     }
 }

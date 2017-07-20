@@ -52,7 +52,7 @@ namespace Logic
                 throw new ArgumentNullException(nameof(book));
 
             if (_list.Contains(book))
-                throw new BookAlreadyExistsException("The same book already exists.");
+                throw new BookAlreadyExistsException(book,"The same book already exists.");
 
             _list.Add(book);
         }
@@ -67,7 +67,7 @@ namespace Logic
                 throw new ArgumentNullException(nameof(book));
 
             if (!_list.Remove(book))
-                throw new BookNotFoundException("The book was not founded.");
+                throw new BookNotFoundException(book,"The book was not founded.");
         }
 
         /// <summary>

@@ -1,0 +1,7 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Release\NLog.config
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Release\Logging.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Release\Logging.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Release\NLog.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Release\NLog.xml
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\obj\Release\Logging.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\obj\Release\Logging.pdb

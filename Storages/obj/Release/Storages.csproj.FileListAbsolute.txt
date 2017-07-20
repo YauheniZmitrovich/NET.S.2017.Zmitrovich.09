@@ -1,0 +1,7 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\bin\Release\Storages.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\bin\Release\Storages.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\bin\Release\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\bin\Release\Logic.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\obj\Release\Storages.csprojResolveAssemblyReference.cache
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\obj\Release\Storages.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\obj\Release\Storages.pdb

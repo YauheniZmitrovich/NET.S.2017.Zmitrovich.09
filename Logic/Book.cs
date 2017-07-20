@@ -112,7 +112,7 @@ namespace Logic
         /// </summary>
         /// <returns> A string that represents the current book. </returns>
         public override string ToString() =>
-                $"\"{Title}\" was written by {Author} in {Year}.\nGenre: {Genre}.\nNumber of pages: {NumberOfPages}.";
+                $"\"{Title}\" was written by {Author} in {Year}. Genre: {Genre}. Number of pages: {NumberOfPages}.";
 
         /// <summary>
         /// Serves as the default hash function for <see cref="Book"/>.

@@ -1,0 +1,8 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Debug\NLog.config
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Debug\Logging.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Debug\Logging.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Debug\NLog.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\bin\Debug\NLog.xml
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\obj\Debug\Logging.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logging\obj\Debug\Logging.pdb

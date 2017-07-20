@@ -11,7 +11,7 @@ namespace Storages
     /// <summary>
     /// The binary storage for list of books.
     /// </summary>
-    public class BinaryStorage : IBookListStorage
+    public sealed class BinaryStorage : IBookListStorage
     {
         private readonly string _path;
 
@@ -53,7 +53,7 @@ namespace Storages
         public List<Book> Load()
         {
             if (!File.Exists(_path))
-                throw new BinaryStorageFileNotFoundException();
+                throw new BinaryStorageFileNotFoundException(_path);
 
             var books = new List<Book>();
 

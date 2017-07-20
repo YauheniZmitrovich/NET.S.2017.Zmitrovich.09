@@ -1,0 +1,19 @@
+2017-07-20 22:05:07.2483 TRACE trace message
+2017-07-20 22:05:07.4633 DEBUG Creating book service object
+2017-07-20 22:05:07.4633 DEBUG Adding books in the book service
+2017-07-20 22:05:07.4678 DEBUG Trying to search the book by tag.
+2017-07-20 22:05:07.4678 INFO The book was founded
+2017-07-20 22:05:07.4678 DEBUG Show the list of books
+2017-07-20 22:05:07.4678 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:05:07.4678 INFO The book was removed
+2017-07-20 22:05:07.4678 DEBUG Trying to sort the books by author by service
+2017-07-20 22:05:07.4678 INFO The books were sorted
+2017-07-20 22:05:07.4678 DEBUG Show the list of books
+2017-07-20 22:05:07.4678 DEBUG Creating of new storage
+2017-07-20 22:05:07.4678 INFO The storage was created
+2017-07-20 22:05:07.4678 DEBUG Saving the list of books
+2017-07-20 22:05:07.4843 INFO The list of books was saved
+2017-07-20 22:05:07.4843 DEBUG Loading the list of books
+2017-07-20 22:05:07.4843 INFO The list of books was sucessfully loaded
+2017-07-20 22:05:07.4843 DEBUG Show the list of books
+2017-07-20 22:05:07.4843 FATAL UNHANDLED EXCEPTION!

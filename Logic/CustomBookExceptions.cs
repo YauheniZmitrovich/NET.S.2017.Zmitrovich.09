@@ -11,12 +11,56 @@ namespace Logic
     /// </summary>
     public class BookAlreadyExistsException : Exception
     {
-        public BookAlreadyExistsException() { }
+        #region Properties
 
-        public BookAlreadyExistsException(string message): base(message) { }
+        /// <summary>
+        /// The book which already exists.
+        /// </summary>
+        public Book ExistingBook { get; private set; }
 
-        public BookAlreadyExistsException(string message, Exception innerException):
-            base(message, innerException){ }
+        #endregion
+
+        #region Constructors
+
+        ///// <summary>
+        /////  Initializes a new instance of <see cref="BookAlreadyExistsException"/>.
+        ///// </summary>
+        //public BookAlreadyExistsException() { }//All must be initialized
+
+        /// <summary>
+        ///  Initializes a new instance of <see cref="BookAlreadyExistsException"/> class with
+        ///  its message string with info about the book.
+        /// </summary>
+        /// <param name="book">The book which already exists. </param>
+        public BookAlreadyExistsException(Book book) : base($"The book {book.ToString()} already exists.")
+        {
+            ExistingBook = book;
+        }
+
+        /// <summary>
+        ///  Initializes a new instance of <see cref="BookAlreadyExistsException"/> class with
+        ///  its message string with info about the book.
+        /// </summary>
+        /// <param name="book">The books which already exists. </param>
+        /// <param name="message"> The message about exception. </param>
+        public BookAlreadyExistsException(Book book, string message) : base(message)
+        {
+            ExistingBook = book;
+        }
+
+        /// <summary>
+        ///  Initializes a new instance of <see cref="BookAlreadyExistsException"/> with
+        ///  its message string with info about the book.
+        /// </summary>
+        /// <param name="book">The books which already exists. </param>
+        /// <param name="message"> The message about exception. </param>
+        /// <param name="innerException"> The inner exception. </param>
+        public BookAlreadyExistsException(Book book, string message, Exception innerException) : base(message, innerException)
+        {
+            ExistingBook = book;
+        }
+
+        #endregion
     }
 
     /// <summary>
@@ -24,11 +68,52 @@ namespace Logic
     /// </summary>
     public class BookNotFoundException : Exception
     {
-        public BookNotFoundException() { }
+        #region Properties
 
-        public BookNotFoundException(string message) : base(message) { }
+        public Book UnfoundBook { get; private set; }
 
-        public BookNotFoundException(string message, Exception innerException) :
-            base(message, innerException) { }
+        #endregion
+
+        #region Constructors
+
+        ///// <summary>
+        /////  Initializes a new instance of <see cref="BookNotFoundException"/>.
+        ///// </summary>
+        //public BookNotFoundException() { }
+
+        /// <summary>
+        ///  Initializes a new instance of <see cref="BookNotFoundException"/> class with
+        ///  its message string with info about the book.
+        /// </summary>
+        /// <param name="book">The books which was not founded. </param>
+        public BookNotFoundException(Book book) : base($"The book {book.ToString()} was not founded.")
+        {
+            UnfoundBook = book;
+        }
+
+        /// <summary>
+        ///  Initializes a new instance of <see cref="BookNotFoundException"/> class with
+        ///  its message string with info about the book.
+        /// </summary>
+        /// <param name="book">The books which was not founded. </param>
+        /// <param name="message"> The message about exception. </param>
+        public BookNotFoundException(Book book, string message) : base(message)
+        {
+            UnfoundBook = book;
+        }
+
+        /// <summary>
+        ///  Initializes a new instance of <see cref="BookNotFoundException"/> class with
+        ///  its message string with info about the book.
+        /// </summary>
+        /// <param name="book">The books which was not founded. </param>
+        /// <param name="message"> The message about exception. </param>
+        /// <param name="innerException"> The inner exception. </param>
+        public BookNotFoundException(Book book, string message, Exception innerException) : base(message, innerException)
+        {
+            UnfoundBook = book;
+        }
+
+        #endregion
     }
 }

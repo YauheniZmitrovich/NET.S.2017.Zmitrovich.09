@@ -1,0 +1,17 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\NLog.config
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\ConsoleUI.exe.config
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\ConsoleUI.exe
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\ConsoleUI.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\Comparators.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\Logging.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\Storages.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\NLog.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\Comparators.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\Logging.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\Logic.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\Storages.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Release\NLog.xml
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\obj\Release\ConsoleUI.csprojResolveAssemblyReference.cache
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\obj\Release\ConsoleUI.exe
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\obj\Release\ConsoleUI.pdb

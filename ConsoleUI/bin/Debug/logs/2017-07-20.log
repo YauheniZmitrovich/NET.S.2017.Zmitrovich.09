@@ -1,0 +1,311 @@
+2017-07-20 21:50:50.1443 DEBUG Creating book service object
+2017-07-20 21:50:50.2024 DEBUG Adding books in the book service
+2017-07-20 21:50:50.2024 DEBUG Trying to search the book by tag.
+2017-07-20 21:50:50.2024 INFO The book was founded
+2017-07-20 21:50:50.2024 DEBUG Show the list of books
+2017-07-20 21:50:50.2218 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 21:50:50.2218 INFO The book was removed
+2017-07-20 21:50:50.2218 DEBUG Trying to sort the books by author by service
+2017-07-20 21:50:50.2218 INFO The books were sorted
+2017-07-20 21:50:50.2218 DEBUG Show the list of books
+2017-07-20 21:50:50.2218 DEBUG Creating of new storage
+2017-07-20 21:50:50.2218 INFO The storage was created
+2017-07-20 21:50:50.2218 DEBUG Saving the list of books
+2017-07-20 21:50:50.2218 INFO The list of books was saved
+2017-07-20 21:50:50.2313 DEBUG Loading the list of books
+2017-07-20 21:50:50.2313 INFO The list of books was sucessfully loaded
+2017-07-20 21:50:50.2313 DEBUG Show the list of books
+2017-07-20 21:52:13.8829 DEBUG Creating book service object
+2017-07-20 21:52:13.9027 DEBUG Adding books in the book service
+2017-07-20 21:52:13.9047 DEBUG Trying to search the book by tag.
+2017-07-20 21:52:13.9047 INFO The book was founded
+2017-07-20 21:52:13.9047 DEBUG Show the list of books
+2017-07-20 21:52:13.9047 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 21:52:13.9047 INFO The book was removed
+2017-07-20 21:52:13.9047 DEBUG Trying to sort the books by author by service
+2017-07-20 21:52:13.9047 INFO The books were sorted
+2017-07-20 21:52:13.9047 DEBUG Show the list of books
+2017-07-20 21:52:13.9047 DEBUG Creating of new storage
+2017-07-20 21:52:13.9047 INFO The storage was created
+2017-07-20 21:52:13.9047 DEBUG Saving the list of books
+2017-07-20 21:52:13.9047 INFO The list of books was saved
+2017-07-20 21:52:13.9047 DEBUG Loading the list of books
+2017-07-20 21:52:13.9047 INFO The list of books was sucessfully loaded
+2017-07-20 21:52:13.9047 DEBUG Show the list of books
+2017-07-20 21:52:13.9230 FATAL UNHANDLED EXCEPTION!
+2017-07-20 21:53:18.3646 DEBUG Creating book service object
+2017-07-20 21:53:18.3926 DEBUG Adding books in the book service
+2017-07-20 21:53:18.3926 DEBUG Trying to search the book by tag.
+2017-07-20 21:53:47.6133 INFO The book was founded
+2017-07-20 21:53:47.6133 DEBUG Show the list of books
+2017-07-20 21:53:47.6133 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 21:53:47.6133 INFO The book was removed
+2017-07-20 21:53:47.6133 DEBUG Trying to sort the books by author by service
+2017-07-20 21:53:47.6238 INFO The books were sorted
+2017-07-20 21:53:47.6238 DEBUG Show the list of books
+2017-07-20 21:53:47.6238 DEBUG Creating of new storage
+2017-07-20 21:53:47.6238 INFO The storage was created
+2017-07-20 21:53:47.6238 DEBUG Saving the list of books
+2017-07-20 21:53:47.6238 INFO The list of books was saved
+2017-07-20 21:53:47.6238 DEBUG Loading the list of books
+2017-07-20 21:53:47.6389 INFO The list of books was sucessfully loaded
+2017-07-20 21:53:47.6389 DEBUG Show the list of books
+2017-07-20 21:53:47.8230 FATAL UNHANDLED EXCEPTION!
+2017-07-20 22:07:46.1343 DEBUG Creating book service object
+2017-07-20 22:07:46.1788 DEBUG Adding books in the book service
+2017-07-20 22:07:46.1788 DEBUG Trying to search the book by tag.
+2017-07-20 22:07:46.1853 INFO The book was founded
+2017-07-20 22:07:46.1853 DEBUG Show the list of books
+2017-07-20 22:07:46.1853 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:07:46.2138 INFO The book was removed
+2017-07-20 22:07:46.2183 DEBUG Trying to sort the books by author by service
+2017-07-20 22:07:46.2183 INFO The books were sorted
+2017-07-20 22:07:46.2183 DEBUG Show the list of books
+2017-07-20 22:07:46.2183 DEBUG Creating of new storage
+2017-07-20 22:07:46.2183 INFO The storage was created
+2017-07-20 22:07:46.2183 DEBUG Saving the list of books
+2017-07-20 22:07:46.2644 INFO The list of books was saved
+2017-07-20 22:07:46.2644 DEBUG Loading the list of books
+2017-07-20 22:07:46.2804 INFO The list of books was sucessfully loaded
+2017-07-20 22:07:46.2804 DEBUG Show the list of books
+2017-07-20 22:07:46.3939 FATAL UNHANDLED EXCEPTION!
+2017-07-20 22:08:01.1508 DEBUG Creating book service object
+2017-07-20 22:08:01.1933 DEBUG Adding books in the book service
+2017-07-20 22:08:01.1933 DEBUG Trying to search the book by tag.
+2017-07-20 22:08:01.1933 INFO The book was founded
+2017-07-20 22:08:01.1933 DEBUG Show the list of books
+2017-07-20 22:08:01.2569 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:08:01.2569 INFO The book was removed
+2017-07-20 22:08:01.2569 DEBUG Trying to sort the books by author by service
+2017-07-20 22:08:01.2569 INFO The books were sorted
+2017-07-20 22:08:01.2569 DEBUG Show the list of books
+2017-07-20 22:08:01.2569 DEBUG Creating of new storage
+2017-07-20 22:08:01.2624 INFO The storage was created
+2017-07-20 22:08:01.2624 DEBUG Saving the list of books
+2017-07-20 22:08:01.2889 INFO The list of books was saved
+2017-07-20 22:08:01.2889 DEBUG Loading the list of books
+2017-07-20 22:08:01.2889 INFO The list of books was sucessfully loaded
+2017-07-20 22:08:01.2889 DEBUG Show the list of books
+2017-07-20 22:08:50.1708 TRACE trace message
+2017-07-20 22:08:50.1928 DEBUG Creating book service object
+2017-07-20 22:08:50.1928 DEBUG Adding books in the book service
+2017-07-20 22:08:50.1928 DEBUG Trying to search the book by tag.
+2017-07-20 22:08:50.1928 INFO The book was founded
+2017-07-20 22:08:50.1928 DEBUG Show the list of books
+2017-07-20 22:08:50.1928 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:08:50.2003 INFO The book was removed
+2017-07-20 22:08:50.2003 DEBUG Trying to sort the books by author by service
+2017-07-20 22:08:50.2003 INFO The books were sorted
+2017-07-20 22:08:50.2003 DEBUG Show the list of books
+2017-07-20 22:08:50.2003 DEBUG Creating of new storage
+2017-07-20 22:08:50.2003 INFO The storage was created
+2017-07-20 22:08:50.2003 DEBUG Saving the list of books
+2017-07-20 22:08:50.2003 INFO The list of books was saved
+2017-07-20 22:08:50.2003 DEBUG Loading the list of books
+2017-07-20 22:08:50.2003 INFO The list of books was sucessfully loaded
+2017-07-20 22:08:50.2003 DEBUG Show the list of books
+2017-07-20 22:08:50.2638 FATAL UNHANDLED EXCEPTION!:Value cannot be null.
+Parameter name: book
+2017-07-20 22:09:05.5517 TRACE trace message
+2017-07-20 22:09:05.5912 DEBUG Creating book service object
+2017-07-20 22:09:05.5912 DEBUG Adding books in the book service
+2017-07-20 22:09:05.5912 DEBUG Trying to search the book by tag.
+2017-07-20 22:09:05.6213 INFO The book was founded
+2017-07-20 22:09:05.6223 DEBUG Show the list of books
+2017-07-20 22:09:05.6383 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:09:05.6383 INFO The book was removed
+2017-07-20 22:09:05.6383 DEBUG Trying to sort the books by author by service
+2017-07-20 22:09:05.6383 INFO The books were sorted
+2017-07-20 22:09:05.6383 DEBUG Show the list of books
+2017-07-20 22:09:05.6728 DEBUG Creating of new storage
+2017-07-20 22:09:05.6728 INFO The storage was created
+2017-07-20 22:09:05.6728 DEBUG Saving the list of books
+2017-07-20 22:09:05.8344 INFO The list of books was saved
+2017-07-20 22:09:05.8344 DEBUG Loading the list of books
+2017-07-20 22:09:05.8344 INFO The list of books was sucessfully loaded
+2017-07-20 22:09:05.8404 DEBUG Show the list of books
+2017-07-20 22:10:09.3290 TRACE trace message
+2017-07-20 22:10:09.3895 DEBUG Creating book service object
+2017-07-20 22:10:09.3895 DEBUG Adding books in the book service
+2017-07-20 22:10:09.3895 DEBUG Trying to search the book by tag.
+2017-07-20 22:10:09.3895 INFO The book was founded
+2017-07-20 22:10:09.3895 DEBUG Show the list of books
+2017-07-20 22:10:09.4075 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:10:09.4075 INFO The book was removed
+2017-07-20 22:10:09.4075 DEBUG Trying to sort the books by author by service
+2017-07-20 22:10:09.4075 INFO The books were sorted
+2017-07-20 22:10:09.4075 DEBUG Show the list of books
+2017-07-20 22:10:09.4075 DEBUG Creating of new storage
+2017-07-20 22:10:09.4075 INFO The storage was created
+2017-07-20 22:10:09.4075 DEBUG Saving the list of books
+2017-07-20 22:10:09.4075 INFO The list of books was saved
+2017-07-20 22:10:09.4075 DEBUG Loading the list of books
+2017-07-20 22:10:09.5841 INFO The list of books was sucessfully loaded
+2017-07-20 22:10:09.5841 DEBUG Show the list of books
+2017-07-20 22:13:24.4355 TRACE trace message
+2017-07-20 22:13:24.5311 DEBUG Creating book service object
+2017-07-20 22:13:24.5311 DEBUG Adding books in the book service
+2017-07-20 22:13:24.5311 DEBUG Trying to search the book by tag.
+2017-07-20 22:13:24.5311 INFO The book was founded
+2017-07-20 22:13:24.5311 DEBUG Show the list of books
+2017-07-20 22:13:24.5311 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:13:24.5311 INFO The book was removed
+2017-07-20 22:13:24.5311 DEBUG Trying to sort the books by author by service
+2017-07-20 22:13:24.5311 INFO The books were sorted
+2017-07-20 22:13:24.5436 DEBUG Show the list of books
+2017-07-20 22:13:24.5436 DEBUG Creating of new storage
+2017-07-20 22:13:24.5436 INFO The storage was created
+2017-07-20 22:13:24.5436 DEBUG Saving the list of books
+2017-07-20 22:13:24.5436 INFO The list of books was saved
+2017-07-20 22:13:24.5656 DEBUG Loading the list of books
+2017-07-20 22:13:24.5656 INFO The list of books was sucessfully loaded
+2017-07-20 22:13:24.5656 DEBUG Show the list of books
+2017-07-20 22:14:36.0754 TRACE trace message
+2017-07-20 22:14:36.1364 DEBUG Creating book service object
+2017-07-20 22:14:36.1374 DEBUG Adding books in the book service
+2017-07-20 22:14:36.1374 DEBUG Trying to search the book by tag.
+2017-07-20 22:14:36.1374 INFO The book was founded
+2017-07-20 22:14:36.1374 DEBUG Show the list of books
+2017-07-20 22:14:36.1374 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:14:36.1374 INFO The book was removed
+2017-07-20 22:14:36.1374 DEBUG Trying to sort the books by author by service
+2017-07-20 22:14:36.1374 INFO The books were sorted
+2017-07-20 22:14:36.1374 DEBUG Show the list of books
+2017-07-20 22:14:36.1374 DEBUG Creating of new storage
+2017-07-20 22:14:36.1374 INFO The storage was created
+2017-07-20 22:14:36.1374 DEBUG Saving the list of books
+2017-07-20 22:14:36.1534 INFO The list of books was saved
+2017-07-20 22:14:36.2355 DEBUG Loading the list of books
+2017-07-20 22:14:36.2355 INFO The list of books was sucessfully loaded
+2017-07-20 22:14:36.2355 DEBUG Show the list of books
+2017-07-20 22:16:05.8729 TRACE trace message
+2017-07-20 22:16:05.8940 DEBUG Creating book service object
+2017-07-20 22:16:05.8940 DEBUG Adding books in the book service
+2017-07-20 22:16:05.8940 DEBUG Trying to search the book by tag.
+2017-07-20 22:16:05.8940 INFO The book was founded
+2017-07-20 22:16:05.8940 DEBUG Show the list of books
+2017-07-20 22:16:05.8940 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:16:05.8940 INFO The book was removed
+2017-07-20 22:16:05.8940 DEBUG Trying to sort the books by author by service
+2017-07-20 22:16:05.8940 INFO The books were sorted
+2017-07-20 22:16:05.8940 DEBUG Show the list of books
+2017-07-20 22:16:05.9036 DEBUG Creating of new storage
+2017-07-20 22:16:05.9036 INFO The storage was created
+2017-07-20 22:16:05.9036 DEBUG Saving the list of books
+2017-07-20 22:16:05.9036 INFO The list of books was saved
+2017-07-20 22:16:05.9036 DEBUG Loading the list of books
+2017-07-20 22:16:05.9036 INFO The list of books was sucessfully loaded
+2017-07-20 22:16:05.9036 DEBUG Show the list of books
+2017-07-20 22:16:05.9036 FATAL UNHANDLED EXCEPTION!:Value cannot be null.
+Parameter name: book
+2017-07-20 22:16:11.1444 TRACE trace message
+2017-07-20 22:16:11.2254 DEBUG Creating book service object
+2017-07-20 22:16:11.2254 DEBUG Adding books in the book service
+2017-07-20 22:16:11.2254 DEBUG Trying to search the book by tag.
+2017-07-20 22:16:11.2319 INFO The book was founded
+2017-07-20 22:16:11.2319 DEBUG Show the list of books
+2017-07-20 22:16:11.2319 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:16:11.2319 INFO The book was removed
+2017-07-20 22:16:11.2319 DEBUG Trying to sort the books by author by service
+2017-07-20 22:16:11.2319 INFO The books were sorted
+2017-07-20 22:16:11.2319 DEBUG Show the list of books
+2017-07-20 22:16:11.2319 DEBUG Creating of new storage
+2017-07-20 22:16:11.2319 INFO The storage was created
+2017-07-20 22:16:11.2319 DEBUG Saving the list of books
+2017-07-20 22:16:11.3645 INFO The list of books was saved
+2017-07-20 22:16:11.3645 DEBUG Loading the list of books
+2017-07-20 22:16:11.3645 INFO The list of books was sucessfully loaded
+2017-07-20 22:16:11.3645 DEBUG Show the list of books
+2017-07-20 22:16:22.2144 TRACE trace message
+2017-07-20 22:16:22.2540 DEBUG Creating book service object
+2017-07-20 22:16:22.2540 DEBUG Adding books in the book service
+2017-07-20 22:16:22.2540 DEBUG Trying to search the book by tag.
+2017-07-20 22:16:22.2540 INFO The book was founded
+2017-07-20 22:16:22.2540 DEBUG Show the list of books
+2017-07-20 22:16:22.2540 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:16:22.2630 INFO The book was removed
+2017-07-20 22:16:22.2630 DEBUG Trying to sort the books by author by service
+2017-07-20 22:16:22.2630 INFO The books were sorted
+2017-07-20 22:16:22.2630 DEBUG Show the list of books
+2017-07-20 22:16:22.2630 DEBUG Creating of new storage
+2017-07-20 22:16:22.2630 INFO The storage was created
+2017-07-20 22:16:22.2630 DEBUG Saving the list of books
+2017-07-20 22:16:22.2855 INFO The list of books was saved
+2017-07-20 22:16:22.3075 DEBUG Loading the list of books
+2017-07-20 22:16:22.3100 INFO The list of books was sucessfully loaded
+2017-07-20 22:16:22.3100 DEBUG Show the list of books
+2017-07-20 22:17:17.9862 TRACE trace message
+2017-07-20 22:17:18.0798 DEBUG Creating book service object
+2017-07-20 22:17:18.0798 DEBUG Adding books in the book service
+2017-07-20 22:17:18.0798 DEBUG Trying to search the book by tag.
+2017-07-20 22:17:18.0798 INFO The book was founded
+2017-07-20 22:17:18.0798 DEBUG Show the list of books
+2017-07-20 22:17:18.0798 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:17:18.0798 INFO The book was removed
+2017-07-20 22:17:18.0798 DEBUG Trying to sort the books by author by service
+2017-07-20 22:17:18.0913 INFO The books were sorted
+2017-07-20 22:17:18.0913 DEBUG Show the list of books
+2017-07-20 22:17:18.1293 DEBUG Creating of new storage
+2017-07-20 22:17:18.1293 INFO The storage was created
+2017-07-20 22:17:18.1293 DEBUG Saving the list of books
+2017-07-20 22:17:18.1963 INFO The list of books was saved
+2017-07-20 22:17:18.2694 DEBUG Loading the list of books
+2017-07-20 22:17:18.2694 INFO The list of books was sucessfully loaded
+2017-07-20 22:17:18.2694 DEBUG Show the list of books
+2017-07-20 22:17:51.0134 TRACE trace message
+2017-07-20 22:17:51.0394 DEBUG Creating book service object
+2017-07-20 22:17:51.0394 DEBUG Adding books in the book service
+2017-07-20 22:17:51.0394 DEBUG Trying to search the book by tag.
+2017-07-20 22:17:51.0449 INFO The book was founded
+2017-07-20 22:17:51.0449 DEBUG Show the list of books
+2017-07-20 22:17:51.0449 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:17:51.0449 INFO The book was removed
+2017-07-20 22:17:51.0449 DEBUG Trying to sort the books by author by service
+2017-07-20 22:17:51.0449 INFO The books were sorted
+2017-07-20 22:17:51.0449 DEBUG Show the list of books
+2017-07-20 22:17:51.0449 DEBUG Creating of new storage
+2017-07-20 22:17:51.0449 INFO The storage was created
+2017-07-20 22:17:51.0449 DEBUG Saving the list of books
+2017-07-20 22:17:51.0449 INFO The list of books was saved
+2017-07-20 22:17:51.0449 DEBUG Loading the list of books
+2017-07-20 22:17:51.0449 INFO The list of books was sucessfully loaded
+2017-07-20 22:17:51.0449 DEBUG Show the list of books
+2017-07-20 22:17:51.0449 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists.
+2017-07-20 22:17:54.9309 TRACE trace message
+2017-07-20 22:17:55.0550 DEBUG Creating book service object
+2017-07-20 22:17:55.0550 DEBUG Adding books in the book service
+2017-07-20 22:17:55.0550 DEBUG Trying to search the book by tag.
+2017-07-20 22:17:55.0610 INFO The book was founded
+2017-07-20 22:17:55.0610 DEBUG Show the list of books
+2017-07-20 22:17:55.0610 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:17:55.0610 INFO The book was removed
+2017-07-20 22:17:55.0610 DEBUG Trying to sort the books by author by service
+2017-07-20 22:17:55.0610 INFO The books were sorted
+2017-07-20 22:17:55.0610 DEBUG Show the list of books
+2017-07-20 22:17:55.0610 DEBUG Creating of new storage
+2017-07-20 22:17:55.0610 INFO The storage was created
+2017-07-20 22:17:55.0610 DEBUG Saving the list of books
+2017-07-20 22:17:55.0785 INFO The list of books was saved
+2017-07-20 22:17:55.0785 DEBUG Loading the list of books
+2017-07-20 22:17:55.0785 INFO The list of books was sucessfully loaded
+2017-07-20 22:17:55.0785 DEBUG Show the list of books
+2017-07-20 22:17:59.8387 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists.
+2017-07-20 22:20:07.9345 TRACE trace message
+2017-07-20 22:20:07.9550 DEBUG Creating book service object
+2017-07-20 22:20:07.9550 DEBUG Adding books in the book service
+2017-07-20 22:20:07.9550 DEBUG Trying to search the book by tag.
+2017-07-20 22:20:07.9550 INFO The book was founded
+2017-07-20 22:20:07.9550 DEBUG Show the list of books
+2017-07-20 22:20:07.9550 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-20 22:20:07.9550 INFO The book was removed
+2017-07-20 22:20:07.9550 DEBUG Trying to sort the books by author by service
+2017-07-20 22:20:07.9550 INFO The books were sorted
+2017-07-20 22:20:07.9550 DEBUG Show the list of books
+2017-07-20 22:20:07.9550 DEBUG Creating of new storage
+2017-07-20 22:20:07.9662 INFO The storage was created
+2017-07-20 22:20:07.9662 DEBUG Saving the list of books
+2017-07-20 22:20:07.9662 INFO The list of books was saved
+2017-07-20 22:20:07.9662 DEBUG Loading the list of books
+2017-07-20 22:20:07.9662 INFO The list of books was sucessfully loaded
+2017-07-20 22:20:07.9662 DEBUG Show the list of books
+2017-07-20 22:20:07.9662 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists.

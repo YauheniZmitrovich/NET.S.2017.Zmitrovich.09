@@ -1,0 +1,4 @@
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\bin\Release\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\bin\Release\Logic.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\obj\Release\Logic.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\obj\Release\Logic.pdb

@@ -10,3 +10,8 @@ E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\obj\Debug\ConsoleUI.exe
 E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\obj\Debug\ConsoleUI.pdb
 E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Comparators.dll
 E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Comparators.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\NLog.config
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Logging.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\NLog.dll
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\Logging.pdb
+E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\bin\Debug\NLog.xml

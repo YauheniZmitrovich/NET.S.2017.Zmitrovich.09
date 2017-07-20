@@ -53,6 +53,10 @@
       <Project>{E235CEA5-6DB1-4018-A882-420AA08AE1D9}</Project>
       <Name>Comparators</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Logging\Logging.csproj">
+      <Project>{7c68e940-d66a-4d22-8a76-e8c4526afd0e}</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Logic\Logic.csproj">
       <Project>{f64013d6-26df-4156-89dd-478603bf4c8f}</Project>
       <Name>Logic</Name>
