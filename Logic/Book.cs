@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Logic
 {
-    public class Book : IEquatable<Book>, IComparable, IComparable<Book>
+    public sealed class Book : IEquatable<Book>, IComparable, IComparable<Book>
     {
         #region Private fields
 
@@ -88,7 +88,7 @@ namespace Logic
         #endregion
 
 
-        #region Constructors
+        #region Constructors 
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Book"/> class.
@@ -112,16 +112,16 @@ namespace Logic
         /// </summary>
         /// <returns> A string that represents the current book. </returns>
         public override string ToString() =>
-            $"\"{Title}\" was written by {Author} in {Year}.\nGenre: {Genre}.\nNumber of pages: {NumberOfPages}.";
+                $"\"{Title}\" was written by {Author} in {Year}.\nGenre: {Genre}.\nNumber of pages: {NumberOfPages}.";
 
         /// <summary>
         /// Serves as the default hash function for <see cref="Book"/>.
         /// </summary>
         /// <returns>  A hash code for the current book. </returns>
-        public override int GetHashCode() => ToString().GetHashCode();
+        public override int GetHashCode() => Author.Length ^ Year + Title.Length ^ NumberOfPages + Genre.Length;
 
         /// <summary>
-        /// Determines whether one book is equal to the current object.
+        /// Determines whether one book is equal to the current object. 
         /// </summary>
         /// <param name="obj"> The object to compare with the current book. </param>
         /// <returns> True if the book is equal to the current object; otherwise, false. </returns>
@@ -130,12 +130,7 @@ namespace Logic
             if (ReferenceEquals(null, obj)) return false;
             if (ReferenceEquals(this, obj)) return true;
 
-            Book bookObj = obj as Book;
-            if (bookObj == null)
-                return false;
-
-            return Title.Equals(bookObj.Title) && Author.Equals(bookObj.Author) && Genre.Equals(bookObj.Genre)
-                   && Year.Equals(bookObj.Year) && NumberOfPages.Equals(bookObj.NumberOfPages);
+            return obj is Book && this.Equals((Book)obj);
         }
 
         #endregion
@@ -180,11 +175,10 @@ namespace Logic
         {
             if (obj == null) return 1;
 
-            Book objBook = obj as Book;
-            if (objBook == null)
+            if (!(obj is Book))
                 throw new ArgumentException("Object is not a Book");
 
-            return this.ToString().CompareTo(objBook.ToString());
+            return CompareTo(obj);
         }
 
         /// <summary>
@@ -196,7 +190,7 @@ namespace Logic
         {
             if (other == null) return 1;
 
-            return this.ToString().CompareTo(other.ToString());
+            return String.Compare(Title, other.Title, StringComparison.Ordinal);
         }
 
         #endregion
@@ -219,34 +213,12 @@ namespace Logic
                 return false;
             }
 
-            return operand1.Title.Equals(operand2.Title) && operand1.Author.Equals(operand2.Author)
-                && operand1.Genre.Equals(operand2.Genre) && operand1.Year.Equals(operand2.Year) 
-                && operand1.NumberOfPages.Equals(operand2.NumberOfPages);
+            return operand1.Equals(operand2);
         }
 
         public static bool operator !=(Book operand1, Book operand2)
         {
             return !(operand1 == operand2);
-        }
-
-        public static bool operator >(Book operand1, Book operand2)
-        {
-            return operand1.CompareTo(operand2) > 0;
-        }
-
-        public static bool operator <(Book operand1, Book operand2)
-        {
-            return operand1.CompareTo(operand2) < 0;
-        }
-
-        public static bool operator >=(Book operand1, Book operand2)
-        {
-            return operand1.CompareTo(operand2) >= 0;
-        }
-
-        public static bool operator <=(Book operand1, Book operand2)
-        {
-            return operand1.CompareTo(operand2) <= 0;
         }
 
         #endregion

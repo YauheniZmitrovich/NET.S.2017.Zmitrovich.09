@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Comparators;
@@ -11,11 +12,11 @@ namespace ConsoleUI
 {
     class Program
     {
-        public static void ShowList(BookListService bookService)
+        public static void ShowList(List<Book> books)
         {
-            for (int i = 0; i < bookService.NumberOfBooks; i++)
+            foreach (Book b in books)
             {
-                Console.WriteLine(bookService[i]+"\n");
+                Console.WriteLine(b + "\n");
             }
         }
 
@@ -31,28 +32,28 @@ namespace ConsoleUI
             Book book1 = bookService.FindBookByTag(b => b.Year == 2016);
             Console.WriteLine(book1);
 
-            ShowList(bookService);
+            ShowList(bookService.GetBooks());
             bookService.RemoveBook(book1);
 
             Console.WriteLine("==============\nAfter book removing:");
-            ShowList(bookService);
+            ShowList(bookService.GetBooks());
 
             Book book2 = bookService.FindBookByTag(b => b.Year == 2016);
-            if(book2==null)
+            if (book2 == null)
                 Console.WriteLine("\nThe book was not founded.");
 
             bookService.SortBooksByTag(new ComparatorByAuthor());
             Console.WriteLine("==============\nAfter sorting by author:");
-            ShowList(bookService);
+            ShowList(bookService.GetBooks());
 
             var storage = new BinaryStorage("BinaryStorageFile");
             bookService.Save(storage);
 
-            var bookService2 =new BookListService();
+            var bookService2 = new BookListService();
             bookService2.Load(storage);
 
             Console.WriteLine("==============\nAfter loading:");
-            ShowList(bookService2);
+            ShowList(bookService2.GetBooks());
 
             try
             {

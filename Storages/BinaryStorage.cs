@@ -28,12 +28,12 @@ namespace Storages
         /// Save list of books in the binary storage.
         /// </summary>
         /// <param name="books"> List of books. </param>
-        public void Save(List<Book> books)
+        public void Save(IEnumerable<Book> books)
         {
             if (books == null)
                 throw new ArgumentNullException(nameof(books));
 
-            using (BinaryWriter writer = new BinaryWriter(File.Open(_path, FileMode.Create)))
+            using (var writer = new BinaryWriter(File.Open(_path, FileMode.Create)))
             {
                 foreach (Book b in books)
                 {
@@ -53,7 +53,7 @@ namespace Storages
         public List<Book> Load()
         {
             if (!File.Exists(_path))
-                throw new FileNotFoundException(nameof(Path));
+                throw new BinaryStorageFileNotFoundException();
 
             var books = new List<Book>();
 

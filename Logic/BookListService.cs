@@ -26,21 +26,10 @@ namespace Logic
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BookListService"/> class.
-        /// </summary>
-        /// <param name="book"> First book for the list. </param>
-        public BookListService(Book book)
-        {
-            if (book == null)
-                throw new ArgumentNullException(nameof(book));
-            _list.Add(book);
-        }
-
-        /// <summary>
         /// Initializes a new instance of the <see cref="BookListService"/> class. 
         /// </summary>
         /// <param name="books"> Book array for the list. </param>
-        public BookListService(params Book[] books)
+        public BookListService(IEnumerable<Book> books)
         {
             if (books == null)
                 throw new ArgumentNullException(nameof(books));
@@ -135,16 +124,22 @@ namespace Logic
             _list = storage?.Load() ?? throw new ArgumentNullException(nameof(storage));
         }
 
+        /// <summary>
+        /// Returns array of books.
+        /// </summary>
+        /// <returns> Returns <see cref="IEnumerable{Book}"/> of books. </returns>
+        public List<Book> GetBooks()
+        {
+            Book[] books = new Book[_list.Count];
+            _list.CopyTo(books);
+
+            return new List<Book>(books);
+        }
+
         #endregion
 
 
-        #region Indexator and Properties
-
-        /// <summary>
-        /// Indexer.
-        /// </summary>
-        public Book this[int index] =>
-            new Book(_list[index].Title, _list[index].Author, _list[index].Genre, _list[index].Year, _list[index].NumberOfPages);
+        #region Properties
 
         /// <summary>
         /// Number of books in list.
