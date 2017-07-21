@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Comparators;
 using Logging;
 using Logic;
+using Logic.CustomExceptions;
 using Storages;
 
 namespace ConsoleUI
@@ -88,31 +89,31 @@ namespace ConsoleUI
                 bookService.Load(storage);
 
                 #endregion
-
             }
             catch (BookNotFoundException ex)
             {
-                logger.Warn($"The book: {ex.UnfoundBook.ToString()} was not found.");
+                logger.Warn($"The book: {ex.UnfoundBook.ToString()} was not found. Stacktrace:{ex.StackTrace}");
             }
             catch (BookAlreadyExistsException ex)
             {
-                logger.Warn($"The book: {ex.ExistingBook.ToString()} already exists.");
+                logger.Warn($"The book: {ex.ExistingBook.ToString()} already exists. Stacktrace:{ex.StackTrace}");
             }
             catch (BinaryStorageFileNotFoundException ex)
             {
-                logger.Warn($"The storage: {ex.UnfoundPath} was not found");
+                logger.Warn($"The storage: {ex.UnfoundPath} was not found. StackTrace: {ex.StackTrace}");
             }
             catch (ArgumentNullException ex)
             {
-                logger.Error("Argument is null reference. "+ex.Message);
+                logger.Error("Argument is null reference. " + ex.Message + "  StackTrace:" + ex.StackTrace);
             }
             catch (ArgumentException ex)
             {
-                logger.Error("Incorrect input argument. " + ex.Message);
+
+                logger.Error("Incorrect input argument. " + ex.Message + "  StackTrace:" + ex.StackTrace);
             }
             catch (Exception ex)
             {
-                logger.Fatal("UNHANDLED EXCEPTION!:" + ex.Message);
+                logger.Fatal("UNHANDLED EXCEPTION!:" + ex.Message + "  StackTrace:" + ex.StackTrace);
             }
         }
 

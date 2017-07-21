@@ -201,6 +201,12 @@ namespace Logic
 
         #region Operators overloading
 
+        /// <summary>
+        /// Determines whether one book is equal to the current object. 
+        /// </summary>
+        /// <param name="operand1"> The first book. </param>
+        /// <param name="operand2"> The second book. </param>
+        /// <returns> True if the book is equal to the current object; otherwise, false. </returns>
         public static bool operator ==(Book operand1, Book operand2)
         {
             if (ReferenceEquals((object)operand1, (object)operand2))
@@ -216,6 +222,12 @@ namespace Logic
             return operand1.Equals(operand2);
         }
 
+        /// <summary>
+        /// Determines whether one book is equal to the current object. 
+        /// </summary>
+        /// <param name="operand1"> The first book. </param>
+        /// <param name="operand2"> The second book. </param>
+        /// <returns> True if the book isnot equal to the current object; otherwise, false. </returns>
         public static bool operator !=(Book operand1, Book operand2)
         {
             return !(operand1 == operand2);
@@ -223,6 +235,5 @@ namespace Logic
 
         #endregion
     }
-
 }
 

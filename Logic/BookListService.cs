@@ -1,16 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using Logging;
+using Logic.CustomExceptions;
 
 namespace Logic
 {
-    public class BookListService
+    public sealed class BookListService
     {
         #region Private fields
 
         private List<Book> _list;
+
+        #endregion
+
+
+        #region Properties
+
+        /// <summary>
+        /// Allows make a systematic recording of events, observations, or measurements by default on base NLog Framework.
+        /// </summary>
+        public static ILogger Logger { get; private set; } = NLogger.Instance;
+
+        /// <summary>
+        /// Number of books in list.
+        /// </summary>
+        public int NumberOfBooks => _list.Count;
 
         #endregion
 
@@ -26,13 +44,26 @@ namespace Logic
         }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="BookListService"/> class with logger.
+        /// </summary>
+        /// <param name="logger"> The object for logging implements ILogger. </param>
+        public BookListService(ILogger logger)
+        {
+            Logger = logger ?? throw new ArgumentNullException(nameof(logger));
+
+            _list = new List<Book>();
+        }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="BookListService"/> class. 
         /// </summary>
         /// <param name="books"> Book array for the list. </param>
-        public BookListService(IEnumerable<Book> books)
+        /// <param name="logger"> The object for logging implements ILogger. </param>
+        public BookListService(IEnumerable<Book> books, ILogger logger = null)
         {
-            if (books == null)
-                throw new ArgumentNullException(nameof(books));
+            if (books == null) throw new ArgumentNullException(nameof(books));
+
+            if (logger != null) Logger = logger;
 
             _list.AddRange(books);
         }
@@ -52,7 +83,7 @@ namespace Logic
                 throw new ArgumentNullException(nameof(book));
 
             if (_list.Contains(book))
-                throw new BookAlreadyExistsException(book,"The same book already exists.");
+                throw new BookAlreadyExistsException(book, "The same book already exists.");
 
             _list.Add(book);
         }
@@ -67,7 +98,7 @@ namespace Logic
                 throw new ArgumentNullException(nameof(book));
 
             if (!_list.Remove(book))
-                throw new BookNotFoundException(book,"The book was not founded.");
+                throw new BookNotFoundException(book, "The book was not founded.");
         }
 
         /// <summary>
@@ -135,16 +166,6 @@ namespace Logic
 
             return new List<Book>(books);
         }
-
-        #endregion
-
-
-        #region Properties
-
-        /// <summary>
-        /// Number of books in list.
-        /// </summary>
-        public int NumberOfBooks => _list.Count;
 
         #endregion
     }

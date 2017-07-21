@@ -1,0 +1,59 @@
+2017-07-21 17:39:08.9451 TRACE trace message
+2017-07-21 17:39:08.9671 DEBUG Creating book service object
+2017-07-21 17:39:08.9671 DEBUG Adding books in the book service
+2017-07-21 17:39:08.9671 DEBUG Trying to search the book by tag.
+2017-07-21 17:39:08.9671 INFO The book was founded
+2017-07-21 17:39:08.9671 DEBUG Show the list of books
+2017-07-21 17:39:08.9671 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-21 17:39:08.9671 INFO The book was removed
+2017-07-21 17:39:08.9671 DEBUG Trying to sort the books by author by service
+2017-07-21 17:39:08.9671 INFO The books were sorted
+2017-07-21 17:39:08.9671 DEBUG Show the list of books
+2017-07-21 17:39:08.9912 DEBUG Creating of new storage
+2017-07-21 17:39:08.9912 INFO The storage was created
+2017-07-21 17:39:08.9912 DEBUG Saving the list of books
+2017-07-21 17:39:08.9912 INFO The list of books was saved
+2017-07-21 17:39:08.9912 DEBUG Loading the list of books
+2017-07-21 17:39:08.9912 INFO The list of books was sucessfully loaded
+2017-07-21 17:39:08.9912 DEBUG Show the list of books
+2017-07-21 17:39:09.0652 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:    at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 87
+2017-07-21 17:41:15.0295 TRACE trace message
+2017-07-21 17:41:15.0565 DEBUG Creating book service object
+2017-07-21 17:41:15.0565 DEBUG Adding books in the book service
+2017-07-21 17:41:15.0565 DEBUG Trying to search the book by tag.
+2017-07-21 17:41:15.0605 INFO The book was founded
+2017-07-21 17:41:15.0605 DEBUG Show the list of books
+2017-07-21 17:41:15.0605 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-21 17:41:15.0605 INFO The book was removed
+2017-07-21 17:41:15.0605 DEBUG Trying to sort the books by author by service
+2017-07-21 17:41:15.0605 INFO The books were sorted
+2017-07-21 17:41:15.0605 DEBUG Show the list of books
+2017-07-21 17:41:15.0605 DEBUG Creating of new storage
+2017-07-21 17:41:15.0605 INFO The storage was created
+2017-07-21 17:41:15.0605 DEBUG Saving the list of books
+2017-07-21 17:41:15.0605 INFO The list of books was saved
+2017-07-21 17:41:15.0605 DEBUG Loading the list of books
+2017-07-21 17:41:15.0605 INFO The list of books was sucessfully loaded
+2017-07-21 17:41:15.0605 DEBUG Show the list of books
+2017-07-21 17:41:15.0605 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists.
+2017-07-21 17:41:53.3017 TRACE trace message
+2017-07-21 17:41:53.3278 DEBUG Creating book service object
+2017-07-21 17:41:53.3278 DEBUG Adding books in the book service
+2017-07-21 17:41:53.3278 DEBUG Trying to search the book by tag.
+2017-07-21 17:41:53.3278 INFO The book was founded
+2017-07-21 17:41:53.3278 DEBUG Show the list of books
+2017-07-21 17:41:53.3278 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-21 17:41:53.3278 INFO The book was removed
+2017-07-21 17:41:53.3278 DEBUG Trying to sort the books by author by service
+2017-07-21 17:41:53.3278 INFO The books were sorted
+2017-07-21 17:41:53.3278 DEBUG Show the list of books
+2017-07-21 17:41:53.3278 DEBUG Creating of new storage
+2017-07-21 17:41:53.3278 INFO The storage was created
+2017-07-21 17:41:53.3278 DEBUG Saving the list of books
+2017-07-21 17:41:53.3278 INFO The list of books was saved
+2017-07-21 17:41:53.3278 DEBUG Loading the list of books
+2017-07-21 17:41:53.3278 INFO The list of books was sucessfully loaded
+2017-07-21 17:41:53.3278 DEBUG Show the list of books
+2017-07-21 17:41:53.3496 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 87

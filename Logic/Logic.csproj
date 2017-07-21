@@ -41,10 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.cs" />
-    <Compile Include="CustomBookExceptions.cs" />
+    <Compile Include="CustomExceptions\BookAlreadyExistsException.cs" />
     <Compile Include="BookListService.cs" />
+    <Compile Include="CustomExceptions\BookNotFoundException.cs" />
     <Compile Include="IBookListStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logging\Logging.csproj">
+      <Project>{7c68e940-d66a-4d22-8a76-e8c4526afd0e}</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

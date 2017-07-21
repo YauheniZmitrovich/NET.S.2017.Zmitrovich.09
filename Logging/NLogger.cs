@@ -14,7 +14,7 @@ namespace Logging
     {
         #region Private fields
 
-        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
+        private static readonly NLog.Logger logger = LogManager.GetCurrentClassLogger();
 
         #endregion
 
