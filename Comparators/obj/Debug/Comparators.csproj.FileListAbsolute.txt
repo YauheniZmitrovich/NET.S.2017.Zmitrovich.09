@@ -5,8 +5,8 @@ E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\Logic.pdb
 E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\obj\Debug\Comparators.csprojResolveAssemblyReference.cache
 E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\obj\Debug\Comparators.dll
 E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\obj\Debug\Comparators.pdb
-E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\NLog.config
 E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\Logging.dll
 E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\NLog.dll
 E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\Logging.pdb
 E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\NLog.xml
+E:\EPAM\NET.S.2017.Zmitrovich.09\Comparators\bin\Debug\NLog.config

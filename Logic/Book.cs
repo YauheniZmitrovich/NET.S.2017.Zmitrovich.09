@@ -91,6 +91,10 @@ namespace Logic
 
         #region Constructors 
 
+        private Book()
+        {
+        }
+
         /// <summary>
         /// Initializes a new instance of the <see cref="Book"/> class.
         /// </summary>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Title>Demons</Title>
+    <Author>Dostoevsky F.</Author>
+    <Genre>Philosophical fiction</Genre>
+    <Year>1872</Year>
+    <NumberOfPages>1000</NumberOfPages>
+  </Book>
+  <Book>
+    <Title>Programminng by C#</Title>
+    <Author>Ian Griffiths</Author>
+    <Genre>Science fiction</Genre>
+    <Year>2012</Year>
+    <NumberOfPages>1064</NumberOfPages>
+  </Book>
+  <Book>
+    <Title>CLR via C#</Title>
+    <Author>J. Richter</Author>
+    <Genre>Science fiction</Genre>
+    <Year>2006</Year>
+    <NumberOfPages>986</NumberOfPages>
+  </Book>
+</ArrayOfBook>

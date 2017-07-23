@@ -104,6 +104,28 @@ namespace ConsoleUI
                 #endregion
 
 
+                #region XML serialization storage testing
+
+                logger.Debug("Creating of new storage");
+                var storage2 = new XmlSerializationStorage("XmlSerializationFile");
+                logger.Info("The storage was created");
+
+                logger.Debug("Saving the list of books");
+                bookService.Save(storage2);
+                logger.Info("The list of books was saved");
+
+                logger.Debug("Loading the list of books");
+                var bookService4 = new BookListService();
+                bookService4.Load(storage2);
+                logger.Info("The list of books was sucessfully loaded");
+
+                logger.Debug("Show the list of books");
+                Console.WriteLine("==============\nAfter loading:");
+                ShowList(bookService4.GetBooks());
+
+                #endregion
+
+
                 #region Exceptions testing
 
                 bookService.AddBook(new Book("CLR via C#", "J. Richter", "Science fiction", 2006, 986));
@@ -133,10 +155,10 @@ namespace ConsoleUI
 
                 logger.Error("Incorrect input argument. " + ex.Message + "  StackTrace:" + ex.StackTrace);
             }
-            //catch (Exception ex)
-            //{
-            //    logger.Fatal("UNHANDLED EXCEPTION!:" + ex.Message + "  StackTrace:" + ex.StackTrace);
-            //}
+            catch (Exception ex)
+            {
+                logger.Fatal("UNHANDLED EXCEPTION!:" + ex.Message + "  StackTrace:" + ex.StackTrace);
+            }
         }
 
         #region Public static methods

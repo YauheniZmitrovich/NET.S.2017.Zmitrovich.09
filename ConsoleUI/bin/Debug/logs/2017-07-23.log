@@ -283,3 +283,351 @@
 2017-07-23 23:28:02.9077 DEBUG Show the list of books
 2017-07-23 23:28:02.9337 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
    at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 109
+2017-07-23 23:44:18.1243 TRACE trace message
+2017-07-23 23:44:18.1453 DEBUG Creating book service object
+2017-07-23 23:44:18.1453 DEBUG Adding books in the book service
+2017-07-23 23:44:18.1453 DEBUG Trying to search the book by tag.
+2017-07-23 23:44:18.1453 INFO The book was founded
+2017-07-23 23:44:18.1453 DEBUG Show the list of books
+2017-07-23 23:44:18.1453 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:44:18.1453 INFO The book was removed
+2017-07-23 23:44:18.1453 DEBUG Trying to sort the books by author by service
+2017-07-23 23:44:18.1453 INFO The books were sorted
+2017-07-23 23:44:18.1453 DEBUG Show the list of books
+2017-07-23 23:44:18.1453 DEBUG Creating of new storage
+2017-07-23 23:44:18.1453 INFO The storage was created
+2017-07-23 23:44:18.1453 DEBUG Saving the list of books
+2017-07-23 23:44:18.1583 INFO The list of books was saved
+2017-07-23 23:44:18.1583 DEBUG Loading the list of books
+2017-07-23 23:44:18.1583 INFO The list of books was sucessfully loaded
+2017-07-23 23:44:18.1583 DEBUG Show the list of books
+2017-07-23 23:44:18.1583 DEBUG Creating of new storage
+2017-07-23 23:44:18.1583 INFO The storage was created
+2017-07-23 23:44:18.1583 DEBUG Saving the list of books
+2017-07-23 23:44:18.1583 INFO The list of books was saved
+2017-07-23 23:44:18.1583 DEBUG Loading the list of books
+2017-07-23 23:44:18.1583 INFO The list of books was sucessfully loaded
+2017-07-23 23:44:18.1583 DEBUG Show the list of books
+2017-07-23 23:44:18.1583 DEBUG Creating of new storage
+2017-07-23 23:44:18.1583 INFO The storage was created
+2017-07-23 23:44:18.1583 DEBUG Saving the list of books
+2017-07-23 23:44:18.1731 INFO The list of books was saved
+2017-07-23 23:44:18.1731 DEBUG Loading the list of books
+2017-07-23 23:44:18.1731 INFO The list of books was sucessfully loaded
+2017-07-23 23:44:18.1731 DEBUG Show the list of books
+2017-07-23 23:44:18.1901 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 131
+2017-07-23 23:44:36.7396 TRACE trace message
+2017-07-23 23:44:36.7807 DEBUG Creating book service object
+2017-07-23 23:44:36.7807 DEBUG Adding books in the book service
+2017-07-23 23:44:36.7847 DEBUG Trying to search the book by tag.
+2017-07-23 23:44:36.7847 INFO The book was founded
+2017-07-23 23:44:36.7847 DEBUG Show the list of books
+2017-07-23 23:44:36.7847 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:44:36.7847 INFO The book was removed
+2017-07-23 23:44:36.7847 DEBUG Trying to sort the books by author by service
+2017-07-23 23:44:36.7847 INFO The books were sorted
+2017-07-23 23:44:36.7847 DEBUG Show the list of books
+2017-07-23 23:44:36.7987 DEBUG Creating of new storage
+2017-07-23 23:44:36.7987 INFO The storage was created
+2017-07-23 23:44:36.7987 DEBUG Saving the list of books
+2017-07-23 23:44:36.7987 INFO The list of books was saved
+2017-07-23 23:44:36.7987 DEBUG Loading the list of books
+2017-07-23 23:44:36.8157 INFO The list of books was sucessfully loaded
+2017-07-23 23:44:36.8157 DEBUG Show the list of books
+2017-07-23 23:44:36.8157 DEBUG Creating of new storage
+2017-07-23 23:44:36.8157 INFO The storage was created
+2017-07-23 23:44:36.8157 DEBUG Saving the list of books
+2017-07-23 23:44:36.8157 INFO The list of books was saved
+2017-07-23 23:44:36.8157 DEBUG Loading the list of books
+2017-07-23 23:44:36.8647 INFO The list of books was sucessfully loaded
+2017-07-23 23:44:36.8647 DEBUG Show the list of books
+2017-07-23 23:44:38.0005 DEBUG Creating of new storage
+2017-07-23 23:44:42.1769 INFO The storage was created
+2017-07-23 23:44:49.9452 DEBUG Saving the list of books
+2017-07-23 23:44:51.6821 INFO The list of books was saved
+2017-07-23 23:44:52.1908 DEBUG Loading the list of books
+2017-07-23 23:45:22.8864 TRACE trace message
+2017-07-23 23:45:22.9064 DEBUG Creating book service object
+2017-07-23 23:45:22.9074 DEBUG Adding books in the book service
+2017-07-23 23:45:22.9074 DEBUG Trying to search the book by tag.
+2017-07-23 23:45:22.9074 INFO The book was founded
+2017-07-23 23:45:22.9074 DEBUG Show the list of books
+2017-07-23 23:45:22.9074 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:45:22.9074 INFO The book was removed
+2017-07-23 23:45:22.9074 DEBUG Trying to sort the books by author by service
+2017-07-23 23:45:22.9074 INFO The books were sorted
+2017-07-23 23:45:22.9074 DEBUG Show the list of books
+2017-07-23 23:45:22.9074 DEBUG Creating of new storage
+2017-07-23 23:45:22.9074 INFO The storage was created
+2017-07-23 23:45:22.9074 DEBUG Saving the list of books
+2017-07-23 23:45:22.9074 INFO The list of books was saved
+2017-07-23 23:45:22.9074 DEBUG Loading the list of books
+2017-07-23 23:45:22.9074 INFO The list of books was sucessfully loaded
+2017-07-23 23:45:22.9074 DEBUG Show the list of books
+2017-07-23 23:45:22.9074 DEBUG Creating of new storage
+2017-07-23 23:45:22.9234 INFO The storage was created
+2017-07-23 23:45:22.9234 DEBUG Saving the list of books
+2017-07-23 23:45:22.9234 INFO The list of books was saved
+2017-07-23 23:45:22.9234 DEBUG Loading the list of books
+2017-07-23 23:45:22.9234 INFO The list of books was sucessfully loaded
+2017-07-23 23:45:22.9234 DEBUG Show the list of books
+2017-07-23 23:45:22.9234 DEBUG Creating of new storage
+2017-07-23 23:45:22.9234 INFO The storage was created
+2017-07-23 23:45:22.9234 DEBUG Saving the list of books
+2017-07-23 23:45:33.1483 TRACE trace message
+2017-07-23 23:45:33.1693 DEBUG Creating book service object
+2017-07-23 23:45:33.1693 DEBUG Adding books in the book service
+2017-07-23 23:45:33.1693 DEBUG Trying to search the book by tag.
+2017-07-23 23:45:33.1733 INFO The book was founded
+2017-07-23 23:45:33.1733 DEBUG Show the list of books
+2017-07-23 23:45:33.1733 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:45:33.1733 INFO The book was removed
+2017-07-23 23:45:33.1733 DEBUG Trying to sort the books by author by service
+2017-07-23 23:45:33.1733 INFO The books were sorted
+2017-07-23 23:45:33.1733 DEBUG Show the list of books
+2017-07-23 23:45:33.1733 DEBUG Creating of new storage
+2017-07-23 23:45:33.1733 INFO The storage was created
+2017-07-23 23:45:33.1733 DEBUG Saving the list of books
+2017-07-23 23:45:33.1733 INFO The list of books was saved
+2017-07-23 23:45:33.1733 DEBUG Loading the list of books
+2017-07-23 23:45:33.1733 INFO The list of books was sucessfully loaded
+2017-07-23 23:45:33.1733 DEBUG Show the list of books
+2017-07-23 23:45:33.1733 DEBUG Creating of new storage
+2017-07-23 23:45:33.1733 INFO The storage was created
+2017-07-23 23:45:33.1733 DEBUG Saving the list of books
+2017-07-23 23:45:33.1733 INFO The list of books was saved
+2017-07-23 23:45:33.1733 DEBUG Loading the list of books
+2017-07-23 23:45:33.1903 INFO The list of books was sucessfully loaded
+2017-07-23 23:45:33.1903 DEBUG Show the list of books
+2017-07-23 23:45:33.1903 DEBUG Creating of new storage
+2017-07-23 23:45:33.1903 INFO The storage was created
+2017-07-23 23:45:33.1903 DEBUG Saving the list of books
+2017-07-23 23:45:40.5836 TRACE trace message
+2017-07-23 23:45:40.6486 DEBUG Creating book service object
+2017-07-23 23:45:40.6486 DEBUG Adding books in the book service
+2017-07-23 23:45:40.6596 DEBUG Trying to search the book by tag.
+2017-07-23 23:45:40.6596 INFO The book was founded
+2017-07-23 23:45:40.6596 DEBUG Show the list of books
+2017-07-23 23:45:40.6817 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:45:40.6817 INFO The book was removed
+2017-07-23 23:45:40.6817 DEBUG Trying to sort the books by author by service
+2017-07-23 23:45:40.6897 INFO The books were sorted
+2017-07-23 23:45:40.6897 DEBUG Show the list of books
+2017-07-23 23:45:40.6897 DEBUG Creating of new storage
+2017-07-23 23:45:40.6897 INFO The storage was created
+2017-07-23 23:45:40.6897 DEBUG Saving the list of books
+2017-07-23 23:45:40.7367 INFO The list of books was saved
+2017-07-23 23:45:40.7367 DEBUG Loading the list of books
+2017-07-23 23:45:40.7367 INFO The list of books was sucessfully loaded
+2017-07-23 23:45:40.7367 DEBUG Show the list of books
+2017-07-23 23:45:40.7367 DEBUG Creating of new storage
+2017-07-23 23:45:40.7367 INFO The storage was created
+2017-07-23 23:45:40.7367 DEBUG Saving the list of books
+2017-07-23 23:45:40.7547 INFO The list of books was saved
+2017-07-23 23:45:40.7547 DEBUG Loading the list of books
+2017-07-23 23:45:40.7707 INFO The list of books was sucessfully loaded
+2017-07-23 23:45:40.7707 DEBUG Show the list of books
+2017-07-23 23:45:43.4331 DEBUG Creating of new storage
+2017-07-23 23:45:45.5173 INFO The storage was created
+2017-07-23 23:45:48.9432 DEBUG Saving the list of books
+2017-07-23 23:51:30.4100 TRACE trace message
+2017-07-23 23:51:30.4731 DEBUG Creating book service object
+2017-07-23 23:51:30.4731 DEBUG Adding books in the book service
+2017-07-23 23:51:30.4731 DEBUG Trying to search the book by tag.
+2017-07-23 23:51:30.4731 INFO The book was founded
+2017-07-23 23:51:30.4731 DEBUG Show the list of books
+2017-07-23 23:51:30.4731 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:51:30.4731 INFO The book was removed
+2017-07-23 23:51:30.4731 DEBUG Trying to sort the books by author by service
+2017-07-23 23:51:30.4731 INFO The books were sorted
+2017-07-23 23:51:30.4731 DEBUG Show the list of books
+2017-07-23 23:51:30.4731 DEBUG Creating of new storage
+2017-07-23 23:51:30.4861 INFO The storage was created
+2017-07-23 23:51:30.4861 DEBUG Saving the list of books
+2017-07-23 23:51:30.4861 INFO The list of books was saved
+2017-07-23 23:51:30.4861 DEBUG Loading the list of books
+2017-07-23 23:51:30.4861 INFO The list of books was sucessfully loaded
+2017-07-23 23:51:30.4861 DEBUG Show the list of books
+2017-07-23 23:51:30.4861 DEBUG Creating of new storage
+2017-07-23 23:51:30.4861 INFO The storage was created
+2017-07-23 23:51:30.4861 DEBUG Saving the list of books
+2017-07-23 23:51:30.4861 INFO The list of books was saved
+2017-07-23 23:51:30.4861 DEBUG Loading the list of books
+2017-07-23 23:51:30.5191 INFO The list of books was sucessfully loaded
+2017-07-23 23:51:30.5191 DEBUG Show the list of books
+2017-07-23 23:51:30.5191 DEBUG Creating of new storage
+2017-07-23 23:51:30.5191 INFO The storage was created
+2017-07-23 23:51:30.5191 DEBUG Saving the list of books
+2017-07-23 23:51:30.6902 INFO The list of books was saved
+2017-07-23 23:51:30.6902 DEBUG Loading the list of books
+2017-07-23 23:51:30.6902 INFO The list of books was sucessfully loaded
+2017-07-23 23:51:30.6902 DEBUG Show the list of books
+2017-07-23 23:51:30.7803 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 131
+2017-07-23 23:51:35.6020 TRACE trace message
+2017-07-23 23:51:35.6571 DEBUG Creating book service object
+2017-07-23 23:51:35.6581 DEBUG Adding books in the book service
+2017-07-23 23:51:35.6581 DEBUG Trying to search the book by tag.
+2017-07-23 23:51:35.6581 INFO The book was founded
+2017-07-23 23:51:35.6581 DEBUG Show the list of books
+2017-07-23 23:51:35.6581 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:51:35.6581 INFO The book was removed
+2017-07-23 23:51:35.6581 DEBUG Trying to sort the books by author by service
+2017-07-23 23:51:35.6581 INFO The books were sorted
+2017-07-23 23:51:35.6581 DEBUG Show the list of books
+2017-07-23 23:51:35.6581 DEBUG Creating of new storage
+2017-07-23 23:51:35.6581 INFO The storage was created
+2017-07-23 23:51:35.6771 DEBUG Saving the list of books
+2017-07-23 23:51:35.6911 INFO The list of books was saved
+2017-07-23 23:51:35.6911 DEBUG Loading the list of books
+2017-07-23 23:51:35.6911 INFO The list of books was sucessfully loaded
+2017-07-23 23:51:35.6911 DEBUG Show the list of books
+2017-07-23 23:51:35.6911 DEBUG Creating of new storage
+2017-07-23 23:51:35.6911 INFO The storage was created
+2017-07-23 23:51:35.6911 DEBUG Saving the list of books
+2017-07-23 23:51:35.6911 INFO The list of books was saved
+2017-07-23 23:51:35.6911 DEBUG Loading the list of books
+2017-07-23 23:51:35.7181 INFO The list of books was sucessfully loaded
+2017-07-23 23:51:35.7181 DEBUG Show the list of books
+2017-07-23 23:51:38.1888 DEBUG Creating of new storage
+2017-07-23 23:51:38.9513 INFO The storage was created
+2017-07-23 23:51:39.3065 DEBUG Saving the list of books
+2017-07-23 23:51:50.9055 INFO The list of books was saved
+2017-07-23 23:51:51.4245 DEBUG Loading the list of books
+2017-07-23 23:52:07.3920 INFO The list of books was sucessfully loaded
+2017-07-23 23:52:07.5673 DEBUG Show the list of books
+2017-07-23 23:52:29.7864 TRACE trace message
+2017-07-23 23:52:29.8194 DEBUG Creating book service object
+2017-07-23 23:52:29.8194 DEBUG Adding books in the book service
+2017-07-23 23:52:29.8194 DEBUG Trying to search the book by tag.
+2017-07-23 23:52:29.8194 INFO The book was founded
+2017-07-23 23:52:29.8194 DEBUG Show the list of books
+2017-07-23 23:52:29.8194 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:52:29.8194 INFO The book was removed
+2017-07-23 23:52:29.8194 DEBUG Trying to sort the books by author by service
+2017-07-23 23:52:29.8304 INFO The books were sorted
+2017-07-23 23:52:29.8304 DEBUG Show the list of books
+2017-07-23 23:52:29.8304 DEBUG Creating of new storage
+2017-07-23 23:52:29.8304 INFO The storage was created
+2017-07-23 23:52:29.8304 DEBUG Saving the list of books
+2017-07-23 23:52:29.8304 INFO The list of books was saved
+2017-07-23 23:52:29.8304 DEBUG Loading the list of books
+2017-07-23 23:52:29.8304 INFO The list of books was sucessfully loaded
+2017-07-23 23:52:29.8304 DEBUG Show the list of books
+2017-07-23 23:52:29.8304 DEBUG Creating of new storage
+2017-07-23 23:52:29.8304 INFO The storage was created
+2017-07-23 23:52:29.8304 DEBUG Saving the list of books
+2017-07-23 23:52:29.8454 INFO The list of books was saved
+2017-07-23 23:52:29.8454 DEBUG Loading the list of books
+2017-07-23 23:52:29.8454 INFO The list of books was sucessfully loaded
+2017-07-23 23:52:29.8454 DEBUG Show the list of books
+2017-07-23 23:52:29.8454 DEBUG Creating of new storage
+2017-07-23 23:52:29.8454 INFO The storage was created
+2017-07-23 23:52:29.8454 DEBUG Saving the list of books
+2017-07-23 23:52:29.9365 INFO The list of books was saved
+2017-07-23 23:52:29.9365 DEBUG Loading the list of books
+2017-07-23 23:52:29.9445 INFO The list of books was sucessfully loaded
+2017-07-23 23:52:29.9445 DEBUG Show the list of books
+2017-07-23 23:52:29.9795 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 131
+2017-07-23 23:52:40.2744 TRACE trace message
+2017-07-23 23:52:40.3444 DEBUG Creating book service object
+2017-07-23 23:52:40.3454 DEBUG Adding books in the book service
+2017-07-23 23:52:40.3454 DEBUG Trying to search the book by tag.
+2017-07-23 23:52:40.3454 INFO The book was founded
+2017-07-23 23:52:40.3454 DEBUG Show the list of books
+2017-07-23 23:52:40.3454 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:52:40.3454 INFO The book was removed
+2017-07-23 23:52:40.3454 DEBUG Trying to sort the books by author by service
+2017-07-23 23:52:40.3454 INFO The books were sorted
+2017-07-23 23:52:40.3454 DEBUG Show the list of books
+2017-07-23 23:52:40.3454 DEBUG Creating of new storage
+2017-07-23 23:52:40.3604 INFO The storage was created
+2017-07-23 23:52:40.3604 DEBUG Saving the list of books
+2017-07-23 23:52:40.3604 INFO The list of books was saved
+2017-07-23 23:52:40.3945 DEBUG Loading the list of books
+2017-07-23 23:52:40.3945 INFO The list of books was sucessfully loaded
+2017-07-23 23:52:40.3945 DEBUG Show the list of books
+2017-07-23 23:52:40.3945 DEBUG Creating of new storage
+2017-07-23 23:52:40.3945 INFO The storage was created
+2017-07-23 23:52:40.3945 DEBUG Saving the list of books
+2017-07-23 23:52:40.3945 INFO The list of books was saved
+2017-07-23 23:52:40.3945 DEBUG Loading the list of books
+2017-07-23 23:52:40.5085 INFO The list of books was sucessfully loaded
+2017-07-23 23:52:40.5085 DEBUG Show the list of books
+2017-07-23 23:52:41.6487 DEBUG Creating of new storage
+2017-07-23 23:52:42.9714 INFO The storage was created
+2017-07-23 23:52:45.7349 DEBUG Saving the list of books
+2017-07-23 23:53:08.5455 INFO The list of books was saved
+2017-07-23 23:53:17.6333 DEBUG Loading the list of books
+2017-07-23 23:53:56.5901 INFO The list of books was sucessfully loaded
+2017-07-23 23:53:58.8862 DEBUG Show the list of books
+2017-07-23 23:54:10.5996 TRACE trace message
+2017-07-23 23:54:10.6196 DEBUG Creating book service object
+2017-07-23 23:54:10.6196 DEBUG Adding books in the book service
+2017-07-23 23:54:10.6196 DEBUG Trying to search the book by tag.
+2017-07-23 23:54:10.6196 INFO The book was founded
+2017-07-23 23:54:10.6196 DEBUG Show the list of books
+2017-07-23 23:54:10.6267 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:54:10.6267 INFO The book was removed
+2017-07-23 23:54:10.6267 DEBUG Trying to sort the books by author by service
+2017-07-23 23:54:10.6267 INFO The books were sorted
+2017-07-23 23:54:10.6267 DEBUG Show the list of books
+2017-07-23 23:54:10.6267 DEBUG Creating of new storage
+2017-07-23 23:54:10.6267 INFO The storage was created
+2017-07-23 23:54:10.6267 DEBUG Saving the list of books
+2017-07-23 23:54:10.6267 INFO The list of books was saved
+2017-07-23 23:54:10.6267 DEBUG Loading the list of books
+2017-07-23 23:54:10.6267 INFO The list of books was sucessfully loaded
+2017-07-23 23:54:10.6267 DEBUG Show the list of books
+2017-07-23 23:54:10.6267 DEBUG Creating of new storage
+2017-07-23 23:54:10.6267 INFO The storage was created
+2017-07-23 23:54:10.6267 DEBUG Saving the list of books
+2017-07-23 23:54:10.6267 INFO The list of books was saved
+2017-07-23 23:54:10.6267 DEBUG Loading the list of books
+2017-07-23 23:54:10.6433 INFO The list of books was sucessfully loaded
+2017-07-23 23:54:10.6433 DEBUG Show the list of books
+2017-07-23 23:54:10.6433 DEBUG Creating of new storage
+2017-07-23 23:54:10.6433 INFO The storage was created
+2017-07-23 23:54:10.6433 DEBUG Saving the list of books
+2017-07-23 23:54:10.7124 INFO The list of books was saved
+2017-07-23 23:54:10.7124 DEBUG Loading the list of books
+2017-07-23 23:54:10.7124 INFO The list of books was sucessfully loaded
+2017-07-23 23:54:10.7124 DEBUG Show the list of books
+2017-07-23 23:54:10.7374 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 131
+2017-07-23 23:54:45.9522 TRACE trace message
+2017-07-23 23:54:45.9823 DEBUG Creating book service object
+2017-07-23 23:54:45.9823 DEBUG Adding books in the book service
+2017-07-23 23:54:45.9863 DEBUG Trying to search the book by tag.
+2017-07-23 23:54:45.9863 INFO The book was founded
+2017-07-23 23:54:45.9863 DEBUG Show the list of books
+2017-07-23 23:54:45.9863 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:54:45.9863 INFO The book was removed
+2017-07-23 23:54:45.9863 DEBUG Trying to sort the books by author by service
+2017-07-23 23:54:45.9863 INFO The books were sorted
+2017-07-23 23:54:45.9863 DEBUG Show the list of books
+2017-07-23 23:54:45.9863 DEBUG Creating of new storage
+2017-07-23 23:54:45.9863 INFO The storage was created
+2017-07-23 23:54:45.9863 DEBUG Saving the list of books
+2017-07-23 23:54:45.9863 INFO The list of books was saved
+2017-07-23 23:54:45.9863 DEBUG Loading the list of books
+2017-07-23 23:54:46.0023 INFO The list of books was sucessfully loaded
+2017-07-23 23:54:46.0023 DEBUG Show the list of books
+2017-07-23 23:54:46.0023 DEBUG Creating of new storage
+2017-07-23 23:54:46.0023 INFO The storage was created
+2017-07-23 23:54:46.0023 DEBUG Saving the list of books
+2017-07-23 23:54:46.0023 INFO The list of books was saved
+2017-07-23 23:54:46.0023 DEBUG Loading the list of books
+2017-07-23 23:54:46.0023 INFO The list of books was sucessfully loaded
+2017-07-23 23:54:46.0023 DEBUG Show the list of books
+2017-07-23 23:54:46.0023 DEBUG Creating of new storage
+2017-07-23 23:54:46.0173 INFO The storage was created
+2017-07-23 23:54:46.0173 DEBUG Saving the list of books
+2017-07-23 23:54:46.1124 INFO The list of books was saved
+2017-07-23 23:54:46.1124 DEBUG Loading the list of books
+2017-07-23 23:54:46.1124 INFO The list of books was sucessfully loaded
+2017-07-23 23:54:46.1124 DEBUG Show the list of books
+2017-07-23 23:54:46.1374 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 131
