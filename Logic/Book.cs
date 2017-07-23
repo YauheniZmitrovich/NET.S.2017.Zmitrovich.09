@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Logic
 {
+    [Serializable]
     public sealed class Book : IEquatable<Book>, IComparable, IComparable<Book>
     {
         #region Private fields
