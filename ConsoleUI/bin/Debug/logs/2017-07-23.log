@@ -1,0 +1,285 @@
+2017-07-23 23:21:49.0071 TRACE trace message
+2017-07-23 23:21:49.0321 DEBUG Creating book service object
+2017-07-23 23:21:49.0341 DEBUG Adding books in the book service
+2017-07-23 23:21:49.0341 DEBUG Trying to search the book by tag.
+2017-07-23 23:21:49.0341 INFO The book was founded
+2017-07-23 23:21:49.0341 DEBUG Show the list of books
+2017-07-23 23:21:49.0491 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:21:49.0491 INFO The book was removed
+2017-07-23 23:21:49.0491 DEBUG Trying to sort the books by author by service
+2017-07-23 23:21:49.0491 INFO The books were sorted
+2017-07-23 23:21:49.0491 DEBUG Show the list of books
+2017-07-23 23:21:49.0491 DEBUG Creating of new storage
+2017-07-23 23:21:49.0491 INFO The storage was created
+2017-07-23 23:21:49.0491 DEBUG Saving the list of books
+2017-07-23 23:21:49.0491 INFO The list of books was saved
+2017-07-23 23:21:49.0491 DEBUG Loading the list of books
+2017-07-23 23:21:49.0491 INFO The list of books was sucessfully loaded
+2017-07-23 23:21:49.0491 DEBUG Show the list of books
+2017-07-23 23:21:49.0491 DEBUG Creating of new storage
+2017-07-23 23:21:49.0491 INFO The storage was created
+2017-07-23 23:21:49.0491 DEBUG Saving the list of books
+2017-07-23 23:21:49.2730 FATAL UNHANDLED EXCEPTION!:Type 'Logic.Book' in Assembly 'Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' is not marked as serializable.  StackTrace:   at System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   at System.Runtime.Serialization.FormatterServices.<>c__DisplayClass9_0.<GetSerializableMembers>b__0(MemberHolder _)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph)
+   at Storages.BinarySerializationStorage.Save(IEnumerable`1 books) in E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\BinarySerializationStorage.cs:line 41
+   at Logic.BookListService.Save(IBookListStorage storage) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 146
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 92
+2017-07-23 23:22:38.7924 TRACE trace message
+2017-07-23 23:22:38.8154 DEBUG Creating book service object
+2017-07-23 23:22:38.8154 DEBUG Adding books in the book service
+2017-07-23 23:22:38.8154 DEBUG Trying to search the book by tag.
+2017-07-23 23:22:38.8154 INFO The book was founded
+2017-07-23 23:22:38.8154 DEBUG Show the list of books
+2017-07-23 23:22:38.8154 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:22:38.8154 INFO The book was removed
+2017-07-23 23:22:38.8154 DEBUG Trying to sort the books by author by service
+2017-07-23 23:22:38.8154 INFO The books were sorted
+2017-07-23 23:22:38.8154 DEBUG Show the list of books
+2017-07-23 23:22:38.8154 DEBUG Creating of new storage
+2017-07-23 23:22:38.8154 INFO The storage was created
+2017-07-23 23:22:38.8154 DEBUG Saving the list of books
+2017-07-23 23:22:38.8154 INFO The list of books was saved
+2017-07-23 23:22:38.8154 DEBUG Loading the list of books
+2017-07-23 23:22:38.8304 INFO The list of books was sucessfully loaded
+2017-07-23 23:22:38.8304 DEBUG Show the list of books
+2017-07-23 23:22:38.8304 DEBUG Creating of new storage
+2017-07-23 23:22:38.8304 INFO The storage was created
+2017-07-23 23:22:38.8304 DEBUG Saving the list of books
+2017-07-23 23:22:38.8534 FATAL UNHANDLED EXCEPTION!:Type 'Logic.Book' in Assembly 'Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' is not marked as serializable.  StackTrace:   at System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   at System.Runtime.Serialization.FormatterServices.<>c__DisplayClass9_0.<GetSerializableMembers>b__0(MemberHolder _)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph)
+   at Storages.BinarySerializationStorage.Save(IEnumerable`1 books) in E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\BinarySerializationStorage.cs:line 41
+   at Logic.BookListService.Save(IBookListStorage storage) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 146
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 92
+2017-07-23 23:22:59.9748 TRACE trace message
+2017-07-23 23:22:59.9948 DEBUG Creating book service object
+2017-07-23 23:22:59.9948 DEBUG Adding books in the book service
+2017-07-23 23:22:59.9948 DEBUG Trying to search the book by tag.
+2017-07-23 23:22:59.9948 INFO The book was founded
+2017-07-23 23:22:59.9948 DEBUG Show the list of books
+2017-07-23 23:22:59.9948 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:22:59.9948 INFO The book was removed
+2017-07-23 23:23:00.0017 DEBUG Trying to sort the books by author by service
+2017-07-23 23:23:00.0017 INFO The books were sorted
+2017-07-23 23:23:00.0017 DEBUG Show the list of books
+2017-07-23 23:23:00.0017 DEBUG Creating of new storage
+2017-07-23 23:23:00.0017 INFO The storage was created
+2017-07-23 23:23:00.0017 DEBUG Saving the list of books
+2017-07-23 23:23:00.0017 INFO The list of books was saved
+2017-07-23 23:23:00.0017 DEBUG Loading the list of books
+2017-07-23 23:23:00.0167 INFO The list of books was sucessfully loaded
+2017-07-23 23:23:00.0167 DEBUG Show the list of books
+2017-07-23 23:23:00.0167 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 109
+2017-07-23 23:23:44.9802 TRACE trace message
+2017-07-23 23:23:45.0001 DEBUG Creating book service object
+2017-07-23 23:23:45.0011 DEBUG Adding books in the book service
+2017-07-23 23:23:45.0011 DEBUG Trying to search the book by tag.
+2017-07-23 23:23:45.0011 INFO The book was founded
+2017-07-23 23:23:45.0011 DEBUG Show the list of books
+2017-07-23 23:23:45.0011 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:23:45.0011 INFO The book was removed
+2017-07-23 23:23:45.0011 DEBUG Trying to sort the books by author by service
+2017-07-23 23:23:45.0011 INFO The books were sorted
+2017-07-23 23:23:45.0011 DEBUG Show the list of books
+2017-07-23 23:23:45.0011 DEBUG Creating of new storage
+2017-07-23 23:23:45.0011 INFO The storage was created
+2017-07-23 23:23:45.0011 DEBUG Saving the list of books
+2017-07-23 23:23:45.0011 INFO The list of books was saved
+2017-07-23 23:23:45.0011 DEBUG Loading the list of books
+2017-07-23 23:23:45.0171 INFO The list of books was sucessfully loaded
+2017-07-23 23:23:45.0171 DEBUG Show the list of books
+2017-07-23 23:23:45.0171 DEBUG Creating of new storage
+2017-07-23 23:23:45.0171 INFO The storage was created
+2017-07-23 23:23:45.0171 DEBUG Saving the list of books
+2017-07-23 23:23:45.0331 FATAL UNHANDLED EXCEPTION!:Type 'Logic.Book' in Assembly 'Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' is not marked as serializable.  StackTrace:   at System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   at System.Runtime.Serialization.FormatterServices.<>c__DisplayClass9_0.<GetSerializableMembers>b__0(MemberHolder _)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph)
+   at Storages.BinarySerializationStorage.Save(IEnumerable`1 books) in E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\BinarySerializationStorage.cs:line 41
+   at Logic.BookListService.Save(IBookListStorage storage) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 146
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 92
+2017-07-23 23:24:09.5922 TRACE trace message
+2017-07-23 23:24:09.6283 DEBUG Creating book service object
+2017-07-23 23:24:09.6283 DEBUG Adding books in the book service
+2017-07-23 23:24:09.6283 DEBUG Trying to search the book by tag.
+2017-07-23 23:24:09.6283 INFO The book was founded
+2017-07-23 23:24:09.6283 DEBUG Show the list of books
+2017-07-23 23:24:09.6283 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:24:09.6283 INFO The book was removed
+2017-07-23 23:24:09.6283 DEBUG Trying to sort the books by author by service
+2017-07-23 23:24:09.6283 INFO The books were sorted
+2017-07-23 23:24:09.6283 DEBUG Show the list of books
+2017-07-23 23:24:09.6283 DEBUG Creating of new storage
+2017-07-23 23:24:09.6283 INFO The storage was created
+2017-07-23 23:24:09.6283 DEBUG Saving the list of books
+2017-07-23 23:24:09.6523 INFO The list of books was saved
+2017-07-23 23:24:09.6523 DEBUG Loading the list of books
+2017-07-23 23:24:09.6603 INFO The list of books was sucessfully loaded
+2017-07-23 23:24:09.6603 DEBUG Show the list of books
+2017-07-23 23:24:09.6603 DEBUG Creating of new storage
+2017-07-23 23:24:09.6603 INFO The storage was created
+2017-07-23 23:24:09.6603 DEBUG Saving the list of books
+2017-07-23 23:24:10.1418 FATAL UNHANDLED EXCEPTION!:Type 'Logic.Book' in Assembly 'Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' is not marked as serializable.  StackTrace:   at System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   at System.Runtime.Serialization.FormatterServices.<>c__DisplayClass9_0.<GetSerializableMembers>b__0(MemberHolder _)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph)
+   at Storages.BinarySerializationStorage.Save(IEnumerable`1 books) in E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\BinarySerializationStorage.cs:line 41
+   at Logic.BookListService.Save(IBookListStorage storage) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 146
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 92
+2017-07-23 23:24:20.4593 TRACE trace message
+2017-07-23 23:24:20.4893 DEBUG Creating book service object
+2017-07-23 23:24:20.4893 DEBUG Adding books in the book service
+2017-07-23 23:24:20.4893 DEBUG Trying to search the book by tag.
+2017-07-23 23:24:20.4893 INFO The book was founded
+2017-07-23 23:24:20.4893 DEBUG Show the list of books
+2017-07-23 23:24:20.4893 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:24:20.4893 INFO The book was removed
+2017-07-23 23:24:20.4893 DEBUG Trying to sort the books by author by service
+2017-07-23 23:24:20.5013 INFO The books were sorted
+2017-07-23 23:24:20.5013 DEBUG Show the list of books
+2017-07-23 23:24:20.5013 DEBUG Creating of new storage
+2017-07-23 23:24:20.5013 INFO The storage was created
+2017-07-23 23:24:20.5013 DEBUG Saving the list of books
+2017-07-23 23:24:20.5323 INFO The list of books was saved
+2017-07-23 23:24:20.5323 DEBUG Loading the list of books
+2017-07-23 23:24:20.5323 INFO The list of books was sucessfully loaded
+2017-07-23 23:24:20.5323 DEBUG Show the list of books
+2017-07-23 23:24:24.5811 DEBUG Creating of new storage
+2017-07-23 23:24:27.0207 INFO The storage was created
+2017-07-23 23:24:27.7372 DEBUG Saving the list of books
+2017-07-23 23:24:40.9461 TRACE trace message
+2017-07-23 23:24:41.0032 DEBUG Creating book service object
+2017-07-23 23:24:41.0032 DEBUG Adding books in the book service
+2017-07-23 23:24:41.0032 DEBUG Trying to search the book by tag.
+2017-07-23 23:24:41.0032 INFO The book was founded
+2017-07-23 23:24:41.0032 DEBUG Show the list of books
+2017-07-23 23:24:41.0032 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:24:41.0032 INFO The book was removed
+2017-07-23 23:24:41.0032 DEBUG Trying to sort the books by author by service
+2017-07-23 23:24:41.0032 INFO The books were sorted
+2017-07-23 23:24:41.0032 DEBUG Show the list of books
+2017-07-23 23:24:41.0032 DEBUG Creating of new storage
+2017-07-23 23:24:41.0172 INFO The storage was created
+2017-07-23 23:24:41.0172 DEBUG Saving the list of books
+2017-07-23 23:24:41.0172 INFO The list of books was saved
+2017-07-23 23:24:41.0172 DEBUG Loading the list of books
+2017-07-23 23:24:41.0172 INFO The list of books was sucessfully loaded
+2017-07-23 23:24:41.0172 DEBUG Show the list of books
+2017-07-23 23:24:42.9292 DEBUG Creating of new storage
+2017-07-23 23:24:44.1031 INFO The storage was created
+2017-07-23 23:24:45.3271 DEBUG Saving the list of books
+2017-07-23 23:25:12.1958 TRACE trace message
+2017-07-23 23:25:12.2318 DEBUG Creating book service object
+2017-07-23 23:25:12.2318 DEBUG Adding books in the book service
+2017-07-23 23:25:12.2358 DEBUG Trying to search the book by tag.
+2017-07-23 23:25:12.2358 INFO The book was founded
+2017-07-23 23:25:12.2358 DEBUG Show the list of books
+2017-07-23 23:25:12.2358 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:25:12.2358 INFO The book was removed
+2017-07-23 23:25:12.2358 DEBUG Trying to sort the books by author by service
+2017-07-23 23:25:12.2358 INFO The books were sorted
+2017-07-23 23:25:12.2358 DEBUG Show the list of books
+2017-07-23 23:25:12.2658 DEBUG Creating of new storage
+2017-07-23 23:25:12.2668 INFO The storage was created
+2017-07-23 23:25:12.2668 DEBUG Saving the list of books
+2017-07-23 23:25:12.3268 INFO The list of books was saved
+2017-07-23 23:25:12.3268 DEBUG Loading the list of books
+2017-07-23 23:25:12.3328 INFO The list of books was sucessfully loaded
+2017-07-23 23:25:12.3328 DEBUG Show the list of books
+2017-07-23 23:25:14.1588 DEBUG Creating of new storage
+2017-07-23 23:25:15.0748 INFO The storage was created
+2017-07-23 23:25:16.0107 DEBUG Saving the list of books
+2017-07-23 23:26:09.8809 FATAL UNHANDLED EXCEPTION!:Type 'Logic.Book' in Assembly 'Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' is not marked as serializable.  StackTrace:   at System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   at System.Runtime.Serialization.FormatterServices.<>c__DisplayClass9_0.<GetSerializableMembers>b__0(MemberHolder _)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph)
+   at Storages.BinarySerializationStorage.Save(IEnumerable`1 books) in E:\EPAM\NET.S.2017.Zmitrovich.09\Storages\BinarySerializationStorage.cs:line 41
+   at Logic.BookListService.Save(IBookListStorage storage) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 146
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 92
+2017-07-23 23:26:19.1941 TRACE trace message
+2017-07-23 23:26:19.2231 DEBUG Creating book service object
+2017-07-23 23:26:19.2231 DEBUG Adding books in the book service
+2017-07-23 23:26:19.2231 DEBUG Trying to search the book by tag.
+2017-07-23 23:26:19.2231 INFO The book was founded
+2017-07-23 23:26:19.2231 DEBUG Show the list of books
+2017-07-23 23:26:19.2231 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:26:19.2231 INFO The book was removed
+2017-07-23 23:26:19.2231 DEBUG Trying to sort the books by author by service
+2017-07-23 23:26:19.2231 INFO The books were sorted
+2017-07-23 23:26:19.2231 DEBUG Show the list of books
+2017-07-23 23:26:19.2361 DEBUG Creating of new storage
+2017-07-23 23:26:19.2361 INFO The storage was created
+2017-07-23 23:26:19.2361 DEBUG Saving the list of books
+2017-07-23 23:26:19.2361 INFO The list of books was saved
+2017-07-23 23:26:19.2361 DEBUG Loading the list of books
+2017-07-23 23:26:19.2361 INFO The list of books was sucessfully loaded
+2017-07-23 23:26:19.2361 DEBUG Show the list of books
+2017-07-23 23:26:20.0327 DEBUG Creating of new storage
+2017-07-23 23:26:20.0327 INFO The storage was created
+2017-07-23 23:26:20.0327 DEBUG Saving the list of books
+2017-07-23 23:28:02.8747 TRACE trace message
+2017-07-23 23:28:02.8997 DEBUG Creating book service object
+2017-07-23 23:28:02.8997 DEBUG Adding books in the book service
+2017-07-23 23:28:02.8997 DEBUG Trying to search the book by tag.
+2017-07-23 23:28:02.8997 INFO The book was founded
+2017-07-23 23:28:02.8997 DEBUG Show the list of books
+2017-07-23 23:28:02.8997 DEBUG Trying to remove the book C# 6.0 J. Albahari & B. Albahari from the service
+2017-07-23 23:28:02.8997 INFO The book was removed
+2017-07-23 23:28:02.8997 DEBUG Trying to sort the books by author by service
+2017-07-23 23:28:02.9077 INFO The books were sorted
+2017-07-23 23:28:02.9077 DEBUG Show the list of books
+2017-07-23 23:28:02.9077 DEBUG Creating of new storage
+2017-07-23 23:28:02.9077 INFO The storage was created
+2017-07-23 23:28:02.9077 DEBUG Saving the list of books
+2017-07-23 23:28:02.9077 INFO The list of books was saved
+2017-07-23 23:28:02.9077 DEBUG Loading the list of books
+2017-07-23 23:28:02.9077 INFO The list of books was sucessfully loaded
+2017-07-23 23:28:02.9077 DEBUG Show the list of books
+2017-07-23 23:28:02.9077 DEBUG Creating of new storage
+2017-07-23 23:28:02.9077 INFO The storage was created
+2017-07-23 23:28:02.9077 DEBUG Saving the list of books
+2017-07-23 23:28:02.9077 INFO The list of books was saved
+2017-07-23 23:28:02.9077 DEBUG Loading the list of books
+2017-07-23 23:28:02.9077 INFO The list of books was sucessfully loaded
+2017-07-23 23:28:02.9077 DEBUG Show the list of books
+2017-07-23 23:28:02.9337 WARN The book: "CLR via C#" was written by J. Richter in 2006. Genre: Science fiction. Number of pages: 986. already exists. Stacktrace:   at Logic.BookListService.AddBook(Book book) in E:\EPAM\NET.S.2017.Zmitrovich.09\Logic\BookListService.cs:line 86
+   at ConsoleUI.Program.Main(String[] args) in E:\EPAM\NET.S.2017.Zmitrovich.09\ConsoleUI\Program.cs:line 109
